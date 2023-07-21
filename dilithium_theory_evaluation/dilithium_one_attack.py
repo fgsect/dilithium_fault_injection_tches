@@ -15,14 +15,19 @@ def main() -> None:
 
     attacks_per_m = 3
     max_failed_attacks = 1
-    nist_security_level = 3
+    nist_security_level = 2
     threads = 40
     params = Parameters.get_nist_security_level(nist_security_level, threads=threads)
     threshold = params.beta
-    notion_of_success = params.n
+    notion_of_success = 2*params.n+50 # How many _correct_ equations (for each secret key polynomial) do we collect before we launch the attack?
     datetime_str = str(datetime.now()).replace(':', '.')
     logging.getLogger().addHandler(logging.FileHandler(f'logs/{datetime_str}'))
-    for m in range(1275 - 10, params.n * params.l): 
+    print("n is ", params.n, "l is ", params.l)
+    #m measures how many coefficients are NOT faulted
+    #That means we fault n*l -m coefficients
+    #Setting m to params.n*params.l -1 will fault exactly ONE coefficient per signature
+    #The script will inform the user if the attack succeeded
+    for m in range(params.n*params.l - 1, params.n * params.l): 
         while True:
             r, successful = attack_success_rate(attacks_per_m, max_failed_attacks, m, 5 * 60, threshold, params, notion_of_success=notion_of_success)
 

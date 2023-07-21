@@ -1,0 +1,28 @@
+index f930d92..91ebcb3 100644
+--- a/dilithium/recover_s_1_entry.py
++++ b/dilithium/recover_s_1_entry.py
+@@ -14,6 +14,7 @@ def solve_max_rows_simplified(A, b, params: Parameters, timeout: float, oracle):
+     GUROBI_STATUS_CODE_TO_STRING = {gp.StatusConstClass.__dict__[k]: k for k in gp.StatusConstClass.__dict__.keys() if
+                                     'A' <= k[0] <= 'Z'}
+
++    s_recovered = None
+     with gp.Env() as env, gp.Model(env=env) as model:
+
+         x = model.addMVar(shape=np.shape(b), vtype=gp.GRB.BINARY)
+@@ -51,6 +52,7 @@ def solve_max_rows_simplified(A, b, params: Parameters, timeout: float, oracle):
+         if model.status == gp.GRB.OPTIMAL or model.status == gp.GRB.INTERRUPTED:
+             result[ResultKeys.FAILURE] = False
+             result[ResultKeys.EQUATIONS_USED] = model.ObjVal
++            s_recovered = s.X
+
+             logging.info(f'We used {model.ObjVal} zero coefficients in y to recover the secret key.')
+             logging.info(f'Recovery took {model.Runtime} seconds.')
+@@ -60,7 +62,6 @@ def solve_max_rows_simplified(A, b, params: Parameters, timeout: float, oracle):
+             result[ResultKeys.FAILURE] = True
+             result[ResultKeys.FAILURE_REASON] = GUROBI_STATUS_CODE_TO_STRING[model.status]
+
+-        s_recovered = s.X
+     return None if result[ResultKeys.FAILURE] else s_recovered, result
+
+
+
