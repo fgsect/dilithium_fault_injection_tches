@@ -1,0 +1,6 @@
+*.sage.py
+.DS_Store
+/*/logs
+/*/.idea
+/*/.venv
+*.pyc

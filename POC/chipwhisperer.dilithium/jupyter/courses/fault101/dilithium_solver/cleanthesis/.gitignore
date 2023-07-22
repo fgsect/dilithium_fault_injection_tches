@@ -1,0 +1,17 @@
+/*.aux
+/*.bbl
+/*.bcf
+/*.log
+/*.xml
+/*.gz
+/*.blg
+/*.dvi
+/*fdb_latexmk
+/*.fls
+/*.synctex
+/_minted*
+/*.lof
+/*.lol
+/*.lot
+/*.toc
+/*.tdo

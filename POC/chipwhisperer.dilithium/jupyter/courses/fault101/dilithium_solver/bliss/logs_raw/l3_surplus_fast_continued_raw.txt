@@ -1,0 +1,1920 @@
+DEBUG:root:The script is running!
+INFO:root:We will have m=306 non-zero entries. Meaning we will have 206 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 996; delta: 1052; threshold: 46
+INFO:root:Total filtered: 996; true: 827; false: 169; false-positive rate: 16.967871485943775%; probability: 1.1506512659917416e-61
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 17:55:59.757117
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 827.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 236.39707612991333 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 827, "filtered_equations": 996, "failure": false, "runtime": 236.39707612991333, "status": "INTERRUPTED", "equations_used": 827.0, "m": 306, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=306 non-zero entries. Meaning we will have 206 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 1004; delta: 1044; threshold: 46
+INFO:root:Total filtered: 1004; true: 827; false: 177; false-positive rate: 17.62948207171315%; probability: 3.716160066149568e-64
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 17:59:56.597110
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 827.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 206.80129504203796 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 827, "filtered_equations": 1004, "failure": false, "runtime": 206.80129504203796, "status": "INTERRUPTED", "equations_used": 827.0, "m": 306, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 824; m = 306; notion_of_success = 622 succeeded!
+INFO:root:We will have m=307 non-zero entries. Meaning we will have 205 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 1014; delta: 1034; threshold: 46
+INFO:root:Total filtered: 1014; true: 823; false: 191; false-positive rate: 18.83629191321499%; probability: 6.530999385149819e-69
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:03:23.771441
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 823.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 204.54582595825195 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 823, "filtered_equations": 1014, "failure": false, "runtime": 204.54582595825195, "status": "INTERRUPTED", "equations_used": 823.0, "m": 307, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=307 non-zero entries. Meaning we will have 205 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 991; delta: 1057; threshold: 46
+INFO:root:Total filtered: 991; true: 821; false: 170; false-positive rate: 17.15438950554995%; probability: 1.2722441010492068e-62
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:06:48.710130
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 821.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 203.05062198638916 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 821, "filtered_equations": 991, "failure": false, "runtime": 203.05062198638916, "status": "INTERRUPTED", "equations_used": 821.0, "m": 307, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 820; m = 307; notion_of_success = 622 succeeded!
+INFO:root:We will have m=308 non-zero entries. Meaning we will have 204 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 974; delta: 1074; threshold: 46
+INFO:root:Total filtered: 974; true: 817; false: 157; false-positive rate: 16.119096509240247%; probability: 6.825073425592868e-59
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:10:12.154015
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 817.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 195.19322514533997 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 817, "filtered_equations": 974, "failure": false, "runtime": 195.19322514533997, "status": "INTERRUPTED", "equations_used": 817.0, "m": 308, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=308 non-zero entries. Meaning we will have 204 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 982; delta: 1066; threshold: 46
+INFO:root:Total filtered: 982; true: 819; false: 163; false-positive rate: 16.59877800407332%; probability: 1.2989094975653947e-60
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:13:27.743001
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 819.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 202.5473141670227 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 819, "filtered_equations": 982, "failure": false, "runtime": 202.5473141670227, "status": "INTERRUPTED", "equations_used": 819.0, "m": 308, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 816; m = 308; notion_of_success = 622 succeeded!
+INFO:root:We will have m=309 non-zero entries. Meaning we will have 203 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 986; delta: 1062; threshold: 46
+INFO:root:Total filtered: 986; true: 814; false: 172; false-positive rate: 17.44421906693712%; probability: 4.99675830286295e-64
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:16:50.704030
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 814.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 199.53437089920044 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 814, "filtered_equations": 986, "failure": false, "runtime": 199.53437089920044, "status": "INTERRUPTED", "equations_used": 814.0, "m": 309, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=309 non-zero entries. Meaning we will have 203 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 1009; delta: 1039; threshold: 46
+INFO:root:Total filtered: 1009; true: 813; false: 196; false-positive rate: 19.425173439048564%; probability: 1.2022443034134312e-71
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:20:10.620053
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 813.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 206.300607919693 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 813, "filtered_equations": 1009, "failure": false, "runtime": 206.300607919693, "status": "INTERRUPTED", "equations_used": 813.0, "m": 309, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 812; m = 309; notion_of_success = 622 succeeded!
+INFO:root:We will have m=310 non-zero entries. Meaning we will have 202 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 988; delta: 1060; threshold: 46
+INFO:root:Total filtered: 988; true: 811; false: 177; false-positive rate: 17.91497975708502%; probability: 5.879474639438122e-66
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:23:37.319169
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 811.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 194.7624270915985 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 811, "filtered_equations": 988, "failure": false, "runtime": 194.7624270915985, "status": "INTERRUPTED", "equations_used": 811.0, "m": 310, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=310 non-zero entries. Meaning we will have 202 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 1011; delta: 1037; threshold: 46
+INFO:root:Total filtered: 1011; true: 809; false: 202; false-positive rate: 19.980217606330367%; probability: 5.428412498256308e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:26:52.467834
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 809.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 226.56593489646912 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 809, "filtered_equations": 1011, "failure": false, "runtime": 226.56593489646912, "status": "INTERRUPTED", "equations_used": 809.0, "m": 310, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 808; m = 310; notion_of_success = 622 succeeded!
+INFO:root:We will have m=311 non-zero entries. Meaning we will have 201 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 986; delta: 1062; threshold: 46
+INFO:root:Total filtered: 986; true: 807; false: 179; false-positive rate: 18.154158215010142%; probability: 4.625747402528913e-67
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:30:39.523036
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 807.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 192.94936895370483 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 807, "filtered_equations": 986, "failure": false, "runtime": 192.94936895370483, "status": "INTERRUPTED", "equations_used": 807.0, "m": 311, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=311 non-zero entries. Meaning we will have 201 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 990; delta: 1058; threshold: 46
+INFO:root:Total filtered: 990; true: 805; false: 185; false-positive rate: 18.68686868686869%; probability: 3.330304452726711e-69
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:33:52.897763
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 805.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 203.81604099273682 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 805, "filtered_equations": 990, "failure": false, "runtime": 203.81604099273682, "status": "INTERRUPTED", "equations_used": 805.0, "m": 311, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 804; m = 311; notion_of_success = 622 succeeded!
+INFO:root:We will have m=312 non-zero entries. Meaning we will have 200 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 988; delta: 1060; threshold: 46
+INFO:root:Total filtered: 988; true: 801; false: 187; false-positive rate: 18.927125506072876%; probability: 2.47724388242301e-70
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:37:17.140908
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 801.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 195.17935585975647 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 801, "filtered_equations": 988, "failure": false, "runtime": 195.17935585975647, "status": "INTERRUPTED", "equations_used": 801.0, "m": 312, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=312 non-zero entries. Meaning we will have 200 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 980; delta: 1068; threshold: 46
+INFO:root:Total filtered: 980; true: 803; false: 177; false-positive rate: 18.06122448979592%; probability: 6.71599546525272e-67
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:40:32.745170
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 803.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 201.22277402877808 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 803, "filtered_equations": 980, "failure": false, "runtime": 201.22277402877808, "status": "INTERRUPTED", "equations_used": 803.0, "m": 312, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 800; m = 312; notion_of_success = 622 succeeded!
+INFO:root:We will have m=313 non-zero entries. Meaning we will have 199 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 968; delta: 1080; threshold: 46
+INFO:root:Total filtered: 968; true: 797; false: 171; false-positive rate: 17.665289256198346%; probability: 1.1270191767192478e-65
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:43:54.318624
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 797.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 188.233167886734 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 797, "filtered_equations": 968, "failure": false, "runtime": 188.233167886734, "status": "INTERRUPTED", "equations_used": 797.0, "m": 313, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=313 non-zero entries. Meaning we will have 199 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 982; delta: 1066; threshold: 46
+INFO:root:Total filtered: 982; true: 799; false: 183; false-positive rate: 18.635437881873727%; probability: 2.615588989299409e-69
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:47:02.929022
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 799.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 198.86862802505493 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 799, "filtered_equations": 982, "failure": false, "runtime": 198.86862802505493, "status": "INTERRUPTED", "equations_used": 799.0, "m": 313, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 796; m = 313; notion_of_success = 622 succeeded!
+INFO:root:We will have m=314 non-zero entries. Meaning we will have 198 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 1014; delta: 1034; threshold: 46
+INFO:root:Total filtered: 1014; true: 796; false: 218; false-positive rate: 21.499013806706113%; probability: 1.2197130355937208e-80
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:50:22.191176
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 796.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 199.76958894729614 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 796, "filtered_equations": 1014, "failure": false, "runtime": 199.76958894729614, "status": "INTERRUPTED", "equations_used": 796.0, "m": 314, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=314 non-zero entries. Meaning we will have 198 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 965; delta: 1083; threshold: 46
+INFO:root:Total filtered: 965; true: 794; false: 171; false-positive rate: 17.72020725388601%; probability: 4.913481093030547e-66
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:53:42.442466
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 794.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 191.47556114196777 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 794, "filtered_equations": 965, "failure": false, "runtime": 191.47556114196777, "status": "INTERRUPTED", "equations_used": 794.0, "m": 314, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 792; m = 314; notion_of_success = 622 succeeded!
+INFO:root:We will have m=315 non-zero entries. Meaning we will have 197 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 983; delta: 1065; threshold: 46
+INFO:root:Total filtered: 983; true: 788; false: 195; false-positive rate: 19.837232960325537%; probability: 1.4206563774079722e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 18:56:54.309094
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 788.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 196.94595789909363 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 788, "filtered_equations": 983, "failure": false, "runtime": 196.94595789909363, "status": "INTERRUPTED", "equations_used": 788.0, "m": 315, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=315 non-zero entries. Meaning we will have 197 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 980; delta: 1068; threshold: 46
+INFO:root:Total filtered: 980; true: 793; false: 187; false-positive rate: 19.081632653061227%; probability: 2.3736532586525223e-71
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:00:11.628409
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 793.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 199.76200103759766 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 793, "filtered_equations": 980, "failure": false, "runtime": 199.76200103759766, "status": "INTERRUPTED", "equations_used": 793.0, "m": 315, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 788; m = 315; notion_of_success = 622 succeeded!
+INFO:root:We will have m=316 non-zero entries. Meaning we will have 196 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 985; delta: 1063; threshold: 46
+INFO:root:Total filtered: 985; true: 788; false: 197; false-positive rate: 20.0%; probability: 3.2723583446266565e-75
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:03:31.780100
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 788.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 203.50202798843384 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 788, "filtered_equations": 985, "failure": false, "runtime": 203.50202798843384, "status": "INTERRUPTED", "equations_used": 788.0, "m": 316, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=316 non-zero entries. Meaning we will have 196 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 983; delta: 1065; threshold: 46
+INFO:root:Total filtered: 983; true: 788; false: 195; false-positive rate: 19.837232960325537%; probability: 1.4206563774079722e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:06:55.640067
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 788.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 198.98318004608154 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 788, "filtered_equations": 983, "failure": false, "runtime": 198.98318004608154, "status": "INTERRUPTED", "equations_used": 788.0, "m": 316, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 784; m = 316; notion_of_success = 622 succeeded!
+INFO:root:We will have m=317 non-zero entries. Meaning we will have 195 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 983; delta: 1065; threshold: 46
+INFO:root:Total filtered: 983; true: 781; false: 202; false-positive rate: 20.54933875890132%; probability: 8.739131204081169e-78
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:10:15.011565
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 781.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 223.91370487213135 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 781, "filtered_equations": 983, "failure": false, "runtime": 223.91370487213135, "status": "INTERRUPTED", "equations_used": 781.0, "m": 317, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=317 non-zero entries. Meaning we will have 195 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 941; delta: 1107; threshold: 46
+INFO:root:Total filtered: 941; true: 783; false: 158; false-positive rate: 16.790648246546226%; probability: 5.21090568080914e-63
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:13:59.333650
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 783.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 183.55055117607117 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 783, "filtered_equations": 941, "failure": false, "runtime": 183.55055117607117, "status": "INTERRUPTED", "equations_used": 783.0, "m": 317, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 780; m = 317; notion_of_success = 622 succeeded!
+INFO:root:We will have m=318 non-zero entries. Meaning we will have 194 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 976; delta: 1072; threshold: 46
+INFO:root:Total filtered: 976; true: 780; false: 196; false-positive rate: 20.081967213114755%; probability: 5.314378638480797e-76
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:17:03.241838
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 780.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 199.81922912597656 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 780, "filtered_equations": 976, "failure": false, "runtime": 199.81922912597656, "status": "INTERRUPTED", "equations_used": 780.0, "m": 318, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=318 non-zero entries. Meaning we will have 194 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 943; delta: 1105; threshold: 46
+INFO:root:Total filtered: 943; true: 777; false: 166; false-positive rate: 17.6033934252386%; probability: 1.8016820979187262e-66
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:20:23.434035
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 777.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 182.13643789291382 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 777, "filtered_equations": 943, "failure": false, "runtime": 182.13643789291382, "status": "INTERRUPTED", "equations_used": 777.0, "m": 318, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 776; m = 318; notion_of_success = 622 succeeded!
+INFO:root:We will have m=319 non-zero entries. Meaning we will have 193 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 958; delta: 1090; threshold: 46
+INFO:root:Total filtered: 958; true: 772; false: 186; false-positive rate: 19.41544885177453%; probability: 7.463325402775006e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:23:25.983120
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 772.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 201.34336590766907 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 772, "filtered_equations": 958, "failure": false, "runtime": 201.34336590766907, "status": "INTERRUPTED", "equations_used": 772.0, "m": 319, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=319 non-zero entries. Meaning we will have 193 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 956; delta: 1092; threshold: 46
+INFO:root:Total filtered: 956; true: 774; false: 182; false-positive rate: 19.03765690376569%; probability: 3.0164324938483887e-72
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:26:47.746344
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 774.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 184.66568994522095 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 774, "filtered_equations": 956, "failure": false, "runtime": 184.66568994522095, "status": "INTERRUPTED", "equations_used": 774.0, "m": 319, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 772; m = 319; notion_of_success = 622 succeeded!
+INFO:root:We will have m=320 non-zero entries. Meaning we will have 192 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 944; delta: 1104; threshold: 46
+INFO:root:Total filtered: 944; true: 770; false: 174; false-positive rate: 18.43220338983051%; probability: 4.1979165424473134e-70
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:29:52.792264
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 770.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 195.22025609016418 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 770, "filtered_equations": 944, "failure": false, "runtime": 195.22025609016418, "status": "INTERRUPTED", "equations_used": 770.0, "m": 320, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=320 non-zero entries. Meaning we will have 192 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 964; delta: 1084; threshold: 46
+INFO:root:Total filtered: 964; true: 768; false: 196; false-positive rate: 20.33195020746888%; probability: 9.870458412338633e-78
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:33:08.383963
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 768.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 196.79033303260803 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 768, "filtered_equations": 964, "failure": false, "runtime": 196.79033303260803, "status": "INTERRUPTED", "equations_used": 768.0, "m": 320, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 768; m = 320; notion_of_success = 622 succeeded!
+INFO:root:We will have m=321 non-zero entries. Meaning we will have 191 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 961; delta: 1087; threshold: 46
+INFO:root:Total filtered: 961; true: 767; false: 194; false-positive rate: 20.187304890738815%; probability: 3.203073990384857e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:36:25.542068
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 767.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 189.00638914108276 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 767, "filtered_equations": 961, "failure": false, "runtime": 189.00638914108276, "status": "INTERRUPTED", "equations_used": 767.0, "m": 321, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=321 non-zero entries. Meaning we will have 191 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 947; delta: 1101; threshold: 46
+INFO:root:Total filtered: 947; true: 766; false: 181; false-positive rate: 19.1129883843717%; probability: 5.030221223283923e-73
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:39:34.914942
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 766.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 182.88179993629456 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 766, "filtered_equations": 947, "failure": false, "runtime": 182.88179993629456, "status": "INTERRUPTED", "equations_used": 766.0, "m": 321, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 764; m = 321; notion_of_success = 622 succeeded!
+INFO:root:We will have m=322 non-zero entries. Meaning we will have 190 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 925; delta: 1123; threshold: 46
+INFO:root:Total filtered: 925; true: 761; false: 164; false-positive rate: 17.72972972972973%; probability: 7.141714029178992e-68
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:42:38.183593
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 761.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 184.71901488304138 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 761, "filtered_equations": 925, "failure": false, "runtime": 184.71901488304138, "status": "INTERRUPTED", "equations_used": 761.0, "m": 322, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=322 non-zero entries. Meaning we will have 190 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 967; delta: 1081; threshold: 46
+INFO:root:Total filtered: 967; true: 761; false: 206; false-positive rate: 21.302998965873837%; probability: 4.4330319209935115e-82
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:45:43.297548
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 761.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 187.9582860469818 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 761, "filtered_equations": 967, "failure": false, "runtime": 187.9582860469818, "status": "INTERRUPTED", "equations_used": 761.0, "m": 322, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 760; m = 322; notion_of_success = 622 succeeded!
+INFO:root:We will have m=323 non-zero entries. Meaning we will have 189 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 953; delta: 1095; threshold: 46
+INFO:root:Total filtered: 953; true: 758; false: 195; false-positive rate: 20.461699895068204%; probability: 6.577938056487304e-79
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:48:51.627471
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 758.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 190.53050899505615 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 758, "filtered_equations": 953, "failure": false, "runtime": 190.53050899505615, "status": "INTERRUPTED", "equations_used": 758.0, "m": 323, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=323 non-zero entries. Meaning we will have 189 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 942; delta: 1106; threshold: 46
+INFO:root:Total filtered: 942; true: 757; false: 185; false-positive rate: 19.63906581740977%; probability: 1.0964658002125022e-75
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:52:02.547523
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 757.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 185.7452380657196 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 757, "filtered_equations": 942, "failure": false, "runtime": 185.7452380657196, "status": "INTERRUPTED", "equations_used": 757.0, "m": 323, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 756; m = 323; notion_of_success = 622 succeeded!
+INFO:root:We will have m=324 non-zero entries. Meaning we will have 188 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 944; delta: 1104; threshold: 46
+INFO:root:Total filtered: 944; true: 754; false: 190; false-positive rate: 20.127118644067796%; probability: 7.710276946022637e-78
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:55:08.668033
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 754.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 192.4692840576172 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 754, "filtered_equations": 944, "failure": false, "runtime": 192.4692840576172, "status": "INTERRUPTED", "equations_used": 754.0, "m": 324, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=324 non-zero entries. Meaning we will have 188 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 956; delta: 1092; threshold: 46
+INFO:root:Total filtered: 956; true: 755; false: 201; false-positive rate: 21.02510460251046%; probability: 2.2258364176557667e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 19:58:21.524554
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 755.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 274.44426107406616 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 755, "filtered_equations": 956, "failure": false, "runtime": 274.44426107406616, "status": "INTERRUPTED", "equations_used": 755.0, "m": 324, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 752; m = 324; notion_of_success = 622 succeeded!
+INFO:root:We will have m=325 non-zero entries. Meaning we will have 187 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 952; delta: 1096; threshold: 46
+INFO:root:Total filtered: 952; true: 753; false: 199; false-positive rate: 20.903361344537817%; probability: 4.97796191821579e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:02:56.401515
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 753.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 185.70194602012634 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 753, "filtered_equations": 952, "failure": false, "runtime": 185.70194602012634, "status": "INTERRUPTED", "equations_used": 753.0, "m": 325, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=325 non-zero entries. Meaning we will have 187 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 943; delta: 1105; threshold: 46
+INFO:root:Total filtered: 943; true: 749; false: 194; false-positive rate: 20.572640509013787%; probability: 5.5781651810852765e-80
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:06:02.469733
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 3
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 160
+WARNING:root:Num incorrect classified: 7
+WARNING:root:Num incorrect s_1 coefficients 259
+WARNING:root:Rank of correctly classified equations: 160
+DEBUG:root:Rank of candidate: 167
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 749, "filtered_equations": 943, "failure": true, "runtime": 300.1664698123932, "status": "TIME_LIMIT", "equations_used": 167.0, "m": 325, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=325 non-zero entries. Meaning we will have 187 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 928; delta: 1120; threshold: 46
+INFO:root:Total filtered: 928; true: 753; false: 175; false-positive rate: 18.857758620689655%; probability: 7.796882025138541e-73
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:11:03.217700
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 753.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 180.18402314186096 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 753, "filtered_equations": 928, "failure": false, "runtime": 180.18402314186096, "status": "INTERRUPTED", "equations_used": 753.0, "m": 325, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 748; m = 325; notion_of_success = 622 succeeded!
+INFO:root:We will have m=326 non-zero entries. Meaning we will have 186 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 912; delta: 1136; threshold: 46
+INFO:root:Total filtered: 912; true: 745; false: 167; false-positive rate: 18.311403508771928%; probability: 3.5040829058402315e-71
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:14:03.749466
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 745.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 185.18320298194885 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 745, "filtered_equations": 912, "failure": false, "runtime": 185.18320298194885, "status": "INTERRUPTED", "equations_used": 745.0, "m": 326, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=326 non-zero entries. Meaning we will have 186 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 939; delta: 1109; threshold: 46
+INFO:root:Total filtered: 939; true: 748; false: 191; false-positive rate: 20.340788072417464%; probability: 4.075596535699864e-79
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:17:09.322213
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 748.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 185.55809807777405 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 748, "filtered_equations": 939, "failure": false, "runtime": 185.55809807777405, "status": "INTERRUPTED", "equations_used": 748.0, "m": 326, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 744; m = 326; notion_of_success = 622 succeeded!
+INFO:root:We will have m=327 non-zero entries. Meaning we will have 185 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 952; delta: 1096; threshold: 46
+INFO:root:Total filtered: 952; true: 742; false: 210; false-positive rate: 22.058823529411764%; probability: 1.5338390227763959e-86
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:20:15.228369
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 742.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 195.23820614814758 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 742, "filtered_equations": 952, "failure": false, "runtime": 195.23820614814758, "status": "INTERRUPTED", "equations_used": 742.0, "m": 327, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=327 non-zero entries. Meaning we will have 185 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 932; delta: 1116; threshold: 46
+INFO:root:Total filtered: 932; true: 741; false: 191; false-positive rate: 20.493562231759658%; probability: 3.0470845181580138e-80
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:23:30.863178
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 741.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 178.3570818901062 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 741, "filtered_equations": 932, "failure": false, "runtime": 178.3570818901062, "status": "INTERRUPTED", "equations_used": 741.0, "m": 327, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 740; m = 327; notion_of_success = 622 succeeded!
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 930; delta: 1118; threshold: 46
+INFO:root:Total filtered: 930; true: 738; false: 192; false-positive rate: 20.64516129032258%; probability: 4.394288849593818e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:26:29.598850
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 3
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 163
+WARNING:root:Num incorrect classified: 6
+WARNING:root:Num incorrect s_1 coefficients 247
+WARNING:root:Rank of correctly classified equations: 163
+DEBUG:root:Rank of candidate: 169
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 738, "filtered_equations": 930, "failure": true, "runtime": 300.0505621433258, "status": "TIME_LIMIT", "equations_used": 169.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 947; delta: 1101; threshold: 46
+INFO:root:Total filtered: 947; true: 738; false: 209; false-positive rate: 22.06969376979937%; probability: 6.675163699156228e-87
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:31:30.153049
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 738.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 185.90921902656555 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 738, "filtered_equations": 947, "failure": false, "runtime": 185.90921902656555, "status": "INTERRUPTED", "equations_used": 738.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 931; delta: 1117; threshold: 46
+INFO:root:Total filtered: 931; true: 738; false: 193; false-positive rate: 20.730397422126746%; probability: 1.9776659806442652e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:34:36.416662
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 1
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 156
+WARNING:root:Num incorrect classified: 6
+WARNING:root:Num incorrect s_1 coefficients 253
+WARNING:root:Rank of correctly classified equations: 156
+DEBUG:root:Rank of candidate: 162
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 738, "filtered_equations": 931, "failure": true, "runtime": 300.04946208000183, "status": "TIME_LIMIT", "equations_used": 162.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 622, "timeout_limit": 300}
+INFO:root:total_eq = 736; m = 328; notion_of_success = 622 did not succeed! Trying again with 623
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 943; delta: 1105; threshold: 46
+INFO:root:Total filtered: 943; true: 737; false: 206; false-positive rate: 21.845174973488866%; probability: 4.6260283135834474e-86
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:39:36.982084
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 169
+WARNING:root:Num incorrect classified: 2
+WARNING:root:Num incorrect s_1 coefficients 252
+WARNING:root:Rank of correctly classified equations: 169
+DEBUG:root:Rank of candidate: 171
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 737, "filtered_equations": 943, "failure": true, "runtime": 300.10080003738403, "status": "TIME_LIMIT", "equations_used": 171.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 912; delta: 1136; threshold: 46
+INFO:root:Total filtered: 912; true: 739; false: 173; false-positive rate: 18.969298245614034%; probability: 3.135859304083762e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:44:37.599351
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 739.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 177.33118605613708 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 739, "filtered_equations": 912, "failure": false, "runtime": 177.33118605613708, "status": "INTERRUPTED", "equations_used": 739.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=328 non-zero entries. Meaning we will have 184 zero entries.
+INFO:root:We will use 4 signatures.
+INFO:root:Before filter: 2048; after filter: 935; delta: 1113; threshold: 46
+INFO:root:Total filtered: 935; true: 739; false: 196; false-positive rate: 20.962566844919785%; probability: 2.676083655502921e-82
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:47:35.286496
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 739.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 180.42261815071106 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 739, "filtered_equations": 935, "failure": false, "runtime": 180.42261815071106, "status": "INTERRUPTED", "equations_used": 739.0, "m": 328, "num_signatures": 4, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 736; m = 328; notion_of_success = 737 succeeded!
+INFO:root:We will have m=329 non-zero entries. Meaning we will have 183 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1149; delta: 1411; threshold: 46
+INFO:root:Total filtered: 1149; true: 917; false: 232; false-positive rate: 20.191470844212358%; probability: 2.8303759370494864e-70
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:50:36.112282
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 917.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 259.50060391426086 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 917, "filtered_equations": 1149, "failure": false, "runtime": 259.50060391426086, "status": "INTERRUPTED", "equations_used": 917.0, "m": 329, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=329 non-zero entries. Meaning we will have 183 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1136; delta: 1424; threshold: 46
+INFO:root:Total filtered: 1136; true: 917; false: 219; false-positive rate: 19.278169014084508%; probability: 6.39929983055505e-67
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:54:56.120975
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 917.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 257.345782995224 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 917, "filtered_equations": 1136, "failure": false, "runtime": 257.345782995224, "status": "INTERRUPTED", "equations_used": 917.0, "m": 329, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 915; m = 329; notion_of_success = 737 succeeded!
+INFO:root:We will have m=330 non-zero entries. Meaning we will have 182 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1141; delta: 1419; threshold: 46
+INFO:root:Total filtered: 1141; true: 910; false: 231; false-positive rate: 20.245398773006134%; probability: 1.0298556314108836e-70
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 20:59:13.895116
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 910.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 232.06752920150757 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 910, "filtered_equations": 1141, "failure": false, "runtime": 232.06752920150757, "status": "INTERRUPTED", "equations_used": 910.0, "m": 330, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=330 non-zero entries. Meaning we will have 182 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1151; delta: 1409; threshold: 46
+INFO:root:Total filtered: 1151; true: 914; false: 237; false-positive rate: 20.59079061685491%; probability: 7.479077393163323e-72
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:03:06.375867
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 914.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 225.37545609474182 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 914, "filtered_equations": 1151, "failure": false, "runtime": 225.37545609474182, "status": "INTERRUPTED", "equations_used": 914.0, "m": 330, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 910; m = 330; notion_of_success = 737 succeeded!
+INFO:root:We will have m=331 non-zero entries. Meaning we will have 181 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1118; delta: 1442; threshold: 46
+INFO:root:Total filtered: 1118; true: 908; false: 210; false-positive rate: 18.783542039355993%; probability: 2.1004737767363596e-65
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:06:52.183212
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 908.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 221.2679569721222 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 908, "filtered_equations": 1118, "failure": false, "runtime": 221.2679569721222, "status": "INTERRUPTED", "equations_used": 908.0, "m": 331, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=331 non-zero entries. Meaning we will have 181 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1150; delta: 1410; threshold: 46
+INFO:root:Total filtered: 1150; true: 907; false: 243; false-positive rate: 21.130434782608695%; probability: 4.164599643662103e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:10:33.925124
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 907.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 229.5368230342865 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 907, "filtered_equations": 1150, "failure": false, "runtime": 229.5368230342865, "status": "INTERRUPTED", "equations_used": 907.0, "m": 331, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 905; m = 331; notion_of_success = 737 succeeded!
+INFO:root:We will have m=332 non-zero entries. Meaning we will have 180 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1157; delta: 1403; threshold: 46
+INFO:root:Total filtered: 1157; true: 902; false: 255; false-positive rate: 22.039757994814174%; probability: 1.0606596649346935e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:14:23.846584
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 902.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 230.50166010856628 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 902, "filtered_equations": 1157, "failure": false, "runtime": 230.50166010856628, "status": "INTERRUPTED", "equations_used": 902.0, "m": 332, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=332 non-zero entries. Meaning we will have 180 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1127; delta: 1433; threshold: 46
+INFO:root:Total filtered: 1127; true: 902; false: 225; false-positive rate: 19.964507542147295%; probability: 5.9096745617294e-70
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:18:14.749280
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 902.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 220.53620409965515 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 902, "filtered_equations": 1127, "failure": false, "runtime": 220.53620409965515, "status": "INTERRUPTED", "equations_used": 902.0, "m": 332, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 900; m = 332; notion_of_success = 737 succeeded!
+INFO:root:We will have m=333 non-zero entries. Meaning we will have 179 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1142; delta: 1418; threshold: 46
+INFO:root:Total filtered: 1142; true: 897; false: 245; false-positive rate: 21.453590192644484%; probability: 1.088356609792081e-75
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:21:55.703485
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 897.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 227.94392609596252 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 897, "filtered_equations": 1142, "failure": false, "runtime": 227.94392609596252, "status": "INTERRUPTED", "equations_used": 897.0, "m": 333, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=333 non-zero entries. Meaning we will have 179 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1143; delta: 1417; threshold: 46
+INFO:root:Total filtered: 1143; true: 903; false: 240; false-positive rate: 20.99737532808399%; probability: 9.31817802937316e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:25:44.079470
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 903.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 242.1331238746643 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 903, "filtered_equations": 1143, "failure": false, "runtime": 242.1331238746643, "status": "INTERRUPTED", "equations_used": 903.0, "m": 333, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 895; m = 333; notion_of_success = 737 succeeded!
+INFO:root:We will have m=334 non-zero entries. Meaning we will have 178 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1125; delta: 1435; threshold: 46
+INFO:root:Total filtered: 1125; true: 892; false: 233; false-positive rate: 20.711111111111112%; probability: 4.2440776690620137e-73
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:29:46.605924
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 892.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 231.51253604888916 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 892, "filtered_equations": 1125, "failure": false, "runtime": 231.51253604888916, "status": "INTERRUPTED", "equations_used": 892.0, "m": 334, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=334 non-zero entries. Meaning we will have 178 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1134; delta: 1426; threshold: 46
+INFO:root:Total filtered: 1134; true: 893; false: 241; false-positive rate: 21.252204585537918%; probability: 4.353877244262236e-75
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:33:38.540454
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 893.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 230.7827432155609 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 893, "filtered_equations": 1134, "failure": false, "runtime": 230.7827432155609, "status": "INTERRUPTED", "equations_used": 893.0, "m": 334, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 890; m = 334; notion_of_success = 737 succeeded!
+INFO:root:We will have m=335 non-zero entries. Meaning we will have 177 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1150; delta: 1410; threshold: 46
+INFO:root:Total filtered: 1150; true: 887; false: 263; false-positive rate: 22.869565217391305%; probability: 1.8992369583907819e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:37:29.726537
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 887.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 250.7956690788269 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 887, "filtered_equations": 1150, "failure": false, "runtime": 250.7956690788269, "status": "INTERRUPTED", "equations_used": 887.0, "m": 335, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=335 non-zero entries. Meaning we will have 177 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1149; delta: 1411; threshold: 46
+INFO:root:Total filtered: 1149; true: 887; false: 262; false-positive rate: 22.80243690165361%; probability: 3.423389501801567e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:41:40.941286
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 887.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 220.890860080719 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 887, "filtered_equations": 1149, "failure": false, "runtime": 220.890860080719, "status": "INTERRUPTED", "equations_used": 887.0, "m": 335, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 885; m = 335; notion_of_success = 737 succeeded!
+INFO:root:We will have m=336 non-zero entries. Meaning we will have 176 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1145; delta: 1415; threshold: 46
+INFO:root:Total filtered: 1145; true: 883; false: 262; false-positive rate: 22.882096069868997%; probability: 1.1518833475123703e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:45:22.227545
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 883.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 253.17922496795654 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 883, "filtered_equations": 1145, "failure": false, "runtime": 253.17922496795654, "status": "INTERRUPTED", "equations_used": 883.0, "m": 336, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=336 non-zero entries. Meaning we will have 176 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1119; delta: 1441; threshold: 46
+INFO:root:Total filtered: 1119; true: 884; false: 235; false-positive rate: 21.00089365504915%; probability: 1.7045203497837867e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:49:35.795475
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 884.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 234.44161891937256 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 884, "filtered_equations": 1119, "failure": false, "runtime": 234.44161891937256, "status": "INTERRUPTED", "equations_used": 884.0, "m": 336, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 880; m = 336; notion_of_success = 737 succeeded!
+INFO:root:We will have m=337 non-zero entries. Meaning we will have 175 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1118; delta: 1442; threshold: 46
+INFO:root:Total filtered: 1118; true: 876; false: 242; false-positive rate: 21.645796064400717%; probability: 2.957013040884896e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:53:30.685726
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 876.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 225.50450205802917 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 876, "filtered_equations": 1118, "failure": false, "runtime": 225.50450205802917, "status": "INTERRUPTED", "equations_used": 876.0, "m": 337, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=337 non-zero entries. Meaning we will have 175 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1141; delta: 1419; threshold: 46
+INFO:root:Total filtered: 1141; true: 877; false: 264; false-positive rate: 23.137598597721297%; probability: 6.65406986065266e-83
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 21:57:16.606972
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 877.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 240.73807191848755 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 877, "filtered_equations": 1141, "failure": false, "runtime": 240.73807191848755, "status": "INTERRUPTED", "equations_used": 877.0, "m": 337, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 875; m = 337; notion_of_success = 737 succeeded!
+INFO:root:We will have m=338 non-zero entries. Meaning we will have 174 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1114; delta: 1446; threshold: 46
+INFO:root:Total filtered: 1114; true: 874; false: 240; false-positive rate: 21.543985637342907%; probability: 5.931996394675087e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:01:17.765097
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 874.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 233.52063703536987 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 874, "filtered_equations": 1114, "failure": false, "runtime": 233.52063703536987, "status": "INTERRUPTED", "equations_used": 874.0, "m": 338, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=338 non-zero entries. Meaning we will have 174 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1111; delta: 1449; threshold: 46
+INFO:root:Total filtered: 1111; true: 872; false: 239; false-positive rate: 21.512151215121513%; probability: 6.452884671226027e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:05:11.665182
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 872.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 233.27795696258545 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 872, "filtered_equations": 1111, "failure": false, "runtime": 233.27795696258545, "status": "INTERRUPTED", "equations_used": 872.0, "m": 338, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 870; m = 338; notion_of_success = 737 succeeded!
+INFO:root:We will have m=339 non-zero entries. Meaning we will have 173 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1097; delta: 1463; threshold: 46
+INFO:root:Total filtered: 1097; true: 867; false: 230; false-positive rate: 20.96627164995442%; probability: 4.659529306653964e-75
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:09:05.341188
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 867.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 248.021959066391 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 867, "filtered_equations": 1097, "failure": false, "runtime": 248.021959066391, "status": "INTERRUPTED", "equations_used": 867.0, "m": 339, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=339 non-zero entries. Meaning we will have 173 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1106; delta: 1454; threshold: 46
+INFO:root:Total filtered: 1106; true: 867; false: 239; false-positive rate: 21.609403254972875%; probability: 1.6840271980555712e-77
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:13:13.738802
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 867.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 250.41801404953003 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 867, "filtered_equations": 1106, "failure": false, "runtime": 250.41801404953003, "status": "INTERRUPTED", "equations_used": 867.0, "m": 339, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 865; m = 339; notion_of_success = 737 succeeded!
+INFO:root:We will have m=340 non-zero entries. Meaning we will have 172 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1106; delta: 1454; threshold: 46
+INFO:root:Total filtered: 1106; true: 862; false: 244; false-positive rate: 22.06148282097649%; probability: 1.9060204967658184e-79
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:17:24.556578
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 862.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 229.4768180847168 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 862, "filtered_equations": 1106, "failure": false, "runtime": 229.4768180847168, "status": "INTERRUPTED", "equations_used": 862.0, "m": 340, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=340 non-zero entries. Meaning we will have 172 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1111; delta: 1449; threshold: 46
+INFO:root:Total filtered: 1111; true: 861; false: 250; false-positive rate: 22.5022502250225%; probability: 3.4986294131250337e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:21:14.431271
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 861.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 224.62187600135803 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 861, "filtered_equations": 1111, "failure": false, "runtime": 224.62187600135803, "status": "INTERRUPTED", "equations_used": 861.0, "m": 340, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 860; m = 340; notion_of_success = 737 succeeded!
+INFO:root:We will have m=341 non-zero entries. Meaning we will have 171 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1080; delta: 1480; threshold: 46
+INFO:root:Total filtered: 1080; true: 857; false: 223; false-positive rate: 20.64814814814815%; probability: 2.8001805457179873e-74
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:24:59.431975
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 857.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 227.38577604293823 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 857, "filtered_equations": 1080, "failure": false, "runtime": 227.38577604293823, "status": "INTERRUPTED", "equations_used": 857.0, "m": 341, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=341 non-zero entries. Meaning we will have 171 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1116; delta: 1444; threshold: 46
+INFO:root:Total filtered: 1116; true: 858; false: 258; false-positive rate: 23.118279569892472%; probability: 1.0682910307484794e-83
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:28:47.235307
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 858.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 235.09627103805542 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 858, "filtered_equations": 1116, "failure": false, "runtime": 235.09627103805542, "status": "INTERRUPTED", "equations_used": 858.0, "m": 341, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 855; m = 341; notion_of_success = 737 succeeded!
+INFO:root:We will have m=342 non-zero entries. Meaning we will have 170 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1094; delta: 1466; threshold: 46
+INFO:root:Total filtered: 1094; true: 852; false: 242; false-positive rate: 22.120658135283364%; probability: 3.929416405522292e-80
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:32:42.748974
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 852.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 220.79622793197632 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 852, "filtered_equations": 1094, "failure": false, "runtime": 220.79622793197632, "status": "INTERRUPTED", "equations_used": 852.0, "m": 342, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=342 non-zero entries. Meaning we will have 170 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1098; delta: 1462; threshold: 46
+INFO:root:Total filtered: 1098; true: 853; false: 245; false-positive rate: 22.313296903460838%; probability: 7.93640732276196e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:36:23.945005
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 853.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 222.4005811214447 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 853, "filtered_equations": 1098, "failure": false, "runtime": 222.4005811214447, "status": "INTERRUPTED", "equations_used": 853.0, "m": 342, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 850; m = 342; notion_of_success = 737 succeeded!
+INFO:root:We will have m=343 non-zero entries. Meaning we will have 169 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1097; delta: 1463; threshold: 46
+INFO:root:Total filtered: 1097; true: 849; false: 248; false-positive rate: 22.60711030082042%; probability: 3.757865708360458e-82
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:40:06.765986
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 849.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 219.1305890083313 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 849, "filtered_equations": 1097, "failure": false, "runtime": 219.1305890083313, "status": "INTERRUPTED", "equations_used": 849.0, "m": 343, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=343 non-zero entries. Meaning we will have 169 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1086; delta: 1474; threshold: 46
+INFO:root:Total filtered: 1086; true: 845; false: 241; false-positive rate: 22.191528545119706%; probability: 9.726049179699405e-81
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:43:46.286285
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 845.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 245.3532919883728 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 845, "filtered_equations": 1086, "failure": false, "runtime": 245.3532919883728, "status": "INTERRUPTED", "equations_used": 845.0, "m": 343, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 845; m = 343; notion_of_success = 737 succeeded!
+INFO:root:We will have m=344 non-zero entries. Meaning we will have 168 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1091; delta: 1469; threshold: 46
+INFO:root:Total filtered: 1091; true: 840; false: 251; false-positive rate: 23.006416131989003%; probability: 3.790153230618958e-84
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:47:52.133574
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 840.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 227.04628801345825 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 840, "filtered_equations": 1091, "failure": false, "runtime": 227.04628801345825, "status": "INTERRUPTED", "equations_used": 840.0, "m": 344, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=344 non-zero entries. Meaning we will have 168 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1103; delta: 1457; threshold: 46
+INFO:root:Total filtered: 1103; true: 843; false: 260; false-positive rate: 23.57207615593835%; probability: 3.3454784825857324e-86
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:51:39.579741
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 843.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 214.25420713424683 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 843, "filtered_equations": 1103, "failure": false, "runtime": 214.25420713424683, "status": "INTERRUPTED", "equations_used": 843.0, "m": 344, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 840; m = 344; notion_of_success = 737 succeeded!
+INFO:root:We will have m=345 non-zero entries. Meaning we will have 167 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1081; delta: 1479; threshold: 46
+INFO:root:Total filtered: 1081; true: 838; false: 243; false-positive rate: 22.47918593894542%; probability: 3.376550099973269e-82
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:55:14.221408
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 838.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 210.27415800094604 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 838, "filtered_equations": 1081, "failure": false, "runtime": 210.27415800094604, "status": "INTERRUPTED", "equations_used": 838.0, "m": 345, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=345 non-zero entries. Meaning we will have 167 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1080; delta: 1480; threshold: 46
+INFO:root:Total filtered: 1080; true: 835; false: 245; false-positive rate: 22.685185185185187%; probability: 3.755405541199957e-83
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 22:58:44.887542
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 835.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 231.89836311340332 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 835, "filtered_equations": 1080, "failure": false, "runtime": 231.89836311340332, "status": "INTERRUPTED", "equations_used": 835.0, "m": 345, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 835; m = 345; notion_of_success = 737 succeeded!
+INFO:root:We will have m=346 non-zero entries. Meaning we will have 166 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1095; delta: 1465; threshold: 46
+INFO:root:Total filtered: 1095; true: 835; false: 260; false-positive rate: 23.74429223744292%; probability: 2.7004041005222174e-87
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:02:37.153632
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 835.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 218.90290689468384 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 835, "filtered_equations": 1095, "failure": false, "runtime": 218.90290689468384, "status": "INTERRUPTED", "equations_used": 835.0, "m": 346, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=346 non-zero entries. Meaning we will have 166 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1047; delta: 1513; threshold: 46
+INFO:root:Total filtered: 1047; true: 836; false: 211; false-positive rate: 20.15281757402101%; probability: 2.471503044039373e-73
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:06:16.420089
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 836.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 227.55456614494324 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 836, "filtered_equations": 1047, "failure": false, "runtime": 227.55456614494324, "status": "INTERRUPTED", "equations_used": 836.0, "m": 346, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 830; m = 346; notion_of_success = 737 succeeded!
+INFO:root:We will have m=347 non-zero entries. Meaning we will have 165 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1083; delta: 1477; threshold: 46
+INFO:root:Total filtered: 1083; true: 828; false: 255; false-positive rate: 23.545706371191137%; probability: 6.834938814876298e-87
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:10:04.359664
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 828.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 245.84021496772766 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 828, "filtered_equations": 1083, "failure": false, "runtime": 245.84021496772766, "status": "INTERRUPTED", "equations_used": 828.0, "m": 347, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=347 non-zero entries. Meaning we will have 165 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1076; delta: 1484; threshold: 46
+INFO:root:Total filtered: 1076; true: 828; false: 248; false-positive rate: 23.04832713754647%; probability: 6.141524701484757e-85
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:14:10.570907
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 828.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 251.1934461593628 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 828, "filtered_equations": 1076, "failure": false, "runtime": 251.1934461593628, "status": "INTERRUPTED", "equations_used": 828.0, "m": 347, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 825; m = 347; notion_of_success = 737 succeeded!
+INFO:root:We will have m=348 non-zero entries. Meaning we will have 164 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1087; delta: 1473; threshold: 46
+INFO:root:Total filtered: 1087; true: 823; false: 264; false-positive rate: 24.28702851885925%; probability: 4.227423832587445e-90
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:18:22.157628
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 823.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 220.48909997940063 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 823, "filtered_equations": 1087, "failure": false, "runtime": 220.48909997940063, "status": "INTERRUPTED", "equations_used": 823.0, "m": 348, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=348 non-zero entries. Meaning we will have 164 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1066; delta: 1494; threshold: 46
+INFO:root:Total filtered: 1066; true: 824; false: 242; false-positive rate: 22.70168855534709%; probability: 8.545558538291263e-84
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:22:03.006693
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 824.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 210.4382050037384 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 824, "filtered_equations": 1066, "failure": false, "runtime": 210.4382050037384, "status": "INTERRUPTED", "equations_used": 824.0, "m": 348, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 820; m = 348; notion_of_success = 737 succeeded!
+INFO:root:We will have m=349 non-zero entries. Meaning we will have 163 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1056; delta: 1504; threshold: 46
+INFO:root:Total filtered: 1056; true: 818; false: 238; false-positive rate: 22.53787878787879%; probability: 1.7684442597841862e-83
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:25:33.863136
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 818.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 231.91698598861694 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 818, "filtered_equations": 1056, "failure": false, "runtime": 231.91698598861694, "status": "INTERRUPTED", "equations_used": 818.0, "m": 349, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=349 non-zero entries. Meaning we will have 163 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1082; delta: 1478; threshold: 46
+INFO:root:Total filtered: 1082; true: 819; false: 263; false-positive rate: 24.306839186691313%; probability: 2.0732838190442355e-90
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:29:26.150603
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 819.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 233.2369999885559 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 819, "filtered_equations": 1082, "failure": false, "runtime": 233.2369999885559, "status": "INTERRUPTED", "equations_used": 819.0, "m": 349, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 815; m = 349; notion_of_success = 737 succeeded!
+INFO:root:We will have m=350 non-zero entries. Meaning we will have 162 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1071; delta: 1489; threshold: 46
+INFO:root:Total filtered: 1071; true: 814; false: 257; false-positive rate: 23.99626517273576%; probability: 1.81518806418524e-89
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:33:19.811135
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 814.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 236.06439685821533 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 814, "filtered_equations": 1071, "failure": false, "runtime": 236.06439685821533, "status": "INTERRUPTED", "equations_used": 814.0, "m": 350, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=350 non-zero entries. Meaning we will have 162 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1074; delta: 1486; threshold: 46
+INFO:root:Total filtered: 1074; true: 815; false: 259; false-positive rate: 24.115456238361265%; probability: 6.977904518978373e-90
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:37:16.265141
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 815.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 237.96817207336426 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 815, "filtered_equations": 1074, "failure": false, "runtime": 237.96817207336426, "status": "INTERRUPTED", "equations_used": 815.0, "m": 350, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 810; m = 350; notion_of_success = 737 succeeded!
+INFO:root:We will have m=351 non-zero entries. Meaning we will have 161 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1052; delta: 1508; threshold: 46
+INFO:root:Total filtered: 1052; true: 805; false: 247; false-positive rate: 23.479087452471482%; probability: 6.027679408075718e-88
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:41:14.617565
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 805.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 224.4854109287262 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 805, "filtered_equations": 1052, "failure": false, "runtime": 224.4854109287262, "status": "INTERRUPTED", "equations_used": 805.0, "m": 351, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=351 non-zero entries. Meaning we will have 161 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1076; delta: 1484; threshold: 46
+INFO:root:Total filtered: 1076; true: 806; false: 270; false-positive rate: 25.092936802973973%; probability: 2.4100100724145026e-94
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:44:59.530729
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 806.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 239.57520985603333 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 806, "filtered_equations": 1076, "failure": false, "runtime": 239.57520985603333, "status": "INTERRUPTED", "equations_used": 806.0, "m": 351, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 805; m = 351; notion_of_success = 737 succeeded!
+INFO:root:We will have m=352 non-zero entries. Meaning we will have 160 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1046; delta: 1514; threshold: 46
+INFO:root:Total filtered: 1046; true: 804; false: 242; false-positive rate: 23.135755258126196%; probability: 1.2157812320843416e-86
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:48:59.480702
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 804.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 214.34839701652527 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 804, "filtered_equations": 1046, "failure": false, "runtime": 214.34839701652527, "status": "INTERRUPTED", "equations_used": 804.0, "m": 352, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=352 non-zero entries. Meaning we will have 160 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1073; delta: 1487; threshold: 46
+INFO:root:Total filtered: 1073; true: 801; false: 272; false-positive rate: 25.349487418452938%; probability: 1.0600637041707628e-95
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:52:34.226520
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 1
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 171
+WARNING:root:Num incorrect classified: 6
+WARNING:root:Num incorrect s_1 coefficients 250
+WARNING:root:Rank of correctly classified equations: 171
+DEBUG:root:Rank of candidate: 177
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 801, "filtered_equations": 1073, "failure": true, "runtime": 300.0481209754944, "status": "TIME_LIMIT", "equations_used": 177.0, "m": 352, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=352 non-zero entries. Meaning we will have 160 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1076; delta: 1484; threshold: 46
+INFO:root:Total filtered: 1076; true: 802; false: 274; false-positive rate: 25.46468401486989%; probability: 4.21121226700268e-96
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-08 23:57:34.792724
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 802.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 238.7751100063324 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 802, "filtered_equations": 1076, "failure": false, "runtime": 238.7751100063324, "status": "INTERRUPTED", "equations_used": 802.0, "m": 352, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 800; m = 352; notion_of_success = 737 succeeded!
+INFO:root:We will have m=353 non-zero entries. Meaning we will have 159 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1057; delta: 1503; threshold: 46
+INFO:root:Total filtered: 1057; true: 798; false: 259; false-positive rate: 24.503311258278146%; probability: 1.759479221729083e-92
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:01:33.939217
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 798.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 217.42391514778137 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 798, "filtered_equations": 1057, "failure": false, "runtime": 217.42391514778137, "status": "INTERRUPTED", "equations_used": 798.0, "m": 353, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=353 non-zero entries. Meaning we will have 159 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1060; delta: 1500; threshold: 46
+INFO:root:Total filtered: 1060; true: 798; false: 262; false-positive rate: 24.71698113207547%; probability: 2.424695335138617e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:05:11.741826
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 798.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 234.57595300674438 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 798, "filtered_equations": 1060, "failure": false, "runtime": 234.57595300674438, "status": "INTERRUPTED", "equations_used": 798.0, "m": 353, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 795; m = 353; notion_of_success = 737 succeeded!
+INFO:root:We will have m=354 non-zero entries. Meaning we will have 158 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1074; delta: 1486; threshold: 46
+INFO:root:Total filtered: 1074; true: 794; false: 280; false-positive rate: 26.0707635009311%; probability: 4.2125125085094124e-99
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:09:06.717058
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 794.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 221.6538200378418 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 794, "filtered_equations": 1074, "failure": false, "runtime": 221.6538200378418, "status": "INTERRUPTED", "equations_used": 794.0, "m": 354, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=354 non-zero entries. Meaning we will have 158 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1055; delta: 1505; threshold: 46
+INFO:root:Total filtered: 1055; true: 793; false: 262; false-positive rate: 24.834123222748815%; probability: 3.829398047055168e-94
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:12:48.772187
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 793.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 231.27328205108643 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 793, "filtered_equations": 1055, "failure": false, "runtime": 231.27328205108643, "status": "INTERRUPTED", "equations_used": 793.0, "m": 354, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 790; m = 354; notion_of_success = 737 succeeded!
+INFO:root:We will have m=355 non-zero entries. Meaning we will have 157 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1039; delta: 1521; threshold: 46
+INFO:root:Total filtered: 1039; true: 786; false: 253; false-positive rate: 24.350336862367662%; probability: 1.1762201258126517e-92
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:16:40.434195
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 786.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 211.62172484397888 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 786, "filtered_equations": 1039, "failure": false, "runtime": 211.62172484397888, "status": "INTERRUPTED", "equations_used": 786.0, "m": 355, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=355 non-zero entries. Meaning we will have 157 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1062; delta: 1498; threshold: 46
+INFO:root:Total filtered: 1062; true: 788; false: 274; false-positive rate: 25.800376647834273%; probability: 2.0505452067776964e-98
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:20:12.442840
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 1
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 167
+WARNING:root:Num incorrect classified: 8
+WARNING:root:Num incorrect s_1 coefficients 248
+WARNING:root:Rank of correctly classified equations: 167
+DEBUG:root:Rank of candidate: 175
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 788, "filtered_equations": 1062, "failure": true, "runtime": 300.052983045578, "status": "TIME_LIMIT", "equations_used": 175.0, "m": 355, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=355 non-zero entries. Meaning we will have 157 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1042; delta: 1518; threshold: 46
+INFO:root:Total filtered: 1042; true: 787; false: 255; false-positive rate: 24.472168905950095%; probability: 4.4171721071249835e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:25:13.095109
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 787.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 215.98856210708618 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 787, "filtered_equations": 1042, "failure": false, "runtime": 215.98856210708618, "status": "INTERRUPTED", "equations_used": 787.0, "m": 355, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 785; m = 355; notion_of_success = 737 succeeded!
+INFO:root:We will have m=356 non-zero entries. Meaning we will have 156 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1050; delta: 1510; threshold: 46
+INFO:root:Total filtered: 1050; true: 782; false: 268; false-positive rate: 25.523809523809526%; probability: 1.0404659655058754e-97
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:28:49.491157
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 782.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 243.91223001480103 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 782, "filtered_equations": 1050, "failure": false, "runtime": 243.91223001480103, "status": "INTERRUPTED", "equations_used": 782.0, "m": 356, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=356 non-zero entries. Meaning we will have 156 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1041; delta: 1519; threshold: 46
+INFO:root:Total filtered: 1041; true: 784; false: 257; false-positive rate: 24.687800192122957%; probability: 3.678875908740836e-94
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:32:53.800648
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 3
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 159
+WARNING:root:Num incorrect classified: 5
+WARNING:root:Num incorrect s_1 coefficients 242
+WARNING:root:Rank of correctly classified equations: 159
+DEBUG:root:Rank of candidate: 164
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 784, "filtered_equations": 1041, "failure": true, "runtime": 300.03889083862305, "status": "TIME_LIMIT", "equations_used": 164.0, "m": 356, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=356 non-zero entries. Meaning we will have 156 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1044; delta: 1516; threshold: 46
+INFO:root:Total filtered: 1044; true: 781; false: 263; false-positive rate: 25.191570881226056%; probability: 2.012621080221452e-96
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:37:54.395670
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 781.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 229.11792397499084 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 781, "filtered_equations": 1044, "failure": false, "runtime": 229.11792397499084, "status": "INTERRUPTED", "equations_used": 781.0, "m": 356, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 780; m = 356; notion_of_success = 737 succeeded!
+INFO:root:We will have m=357 non-zero entries. Meaning we will have 155 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1027; delta: 1533; threshold: 46
+INFO:root:Total filtered: 1027; true: 779; false: 248; false-positive rate: 24.148003894839338%; probability: 2.5681924253779946e-92
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:41:43.879303
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 779.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 216.32016897201538 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 779, "filtered_equations": 1027, "failure": false, "runtime": 216.32016897201538, "status": "INTERRUPTED", "equations_used": 779.0, "m": 357, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=357 non-zero entries. Meaning we will have 155 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1054; delta: 1506; threshold: 46
+INFO:root:Total filtered: 1054; true: 776; false: 278; false-positive rate: 26.37571157495256%; probability: 1.1817310980476849e-101
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:45:20.607969
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 166
+WARNING:root:Num incorrect classified: 11
+WARNING:root:Num incorrect s_1 coefficients 243
+WARNING:root:Rank of correctly classified equations: 166
+DEBUG:root:Rank of candidate: 177
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 776, "filtered_equations": 1054, "failure": true, "runtime": 300.02122688293457, "status": "TIME_LIMIT", "equations_used": 177.0, "m": 357, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=357 non-zero entries. Meaning we will have 155 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1030; delta: 1530; threshold: 46
+INFO:root:Total filtered: 1030; true: 777; false: 253; false-positive rate: 24.563106796116504%; probability: 3.817048642461933e-94
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:50:21.131838
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 777.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 217.27171683311462 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 777, "filtered_equations": 1030, "failure": false, "runtime": 217.27171683311462, "status": "INTERRUPTED", "equations_used": 777.0, "m": 357, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 775; m = 357; notion_of_success = 737 succeeded!
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1021; delta: 1539; threshold: 46
+INFO:root:Total filtered: 1021; true: 774; false: 247; false-positive rate: 24.191968658178258%; probability: 7.562126122966528e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:53:58.876214
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 2
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 164
+WARNING:root:Num incorrect classified: 12
+WARNING:root:Num incorrect s_1 coefficients 246
+WARNING:root:Rank of correctly classified equations: 164
+DEBUG:root:Rank of candidate: 176
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 774, "filtered_equations": 1021, "failure": true, "runtime": 300.0381271839142, "status": "TIME_LIMIT", "equations_used": 176.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1008; delta: 1552; threshold: 46
+INFO:root:Total filtered: 1008; true: 772; false: 236; false-positive rate: 23.41269841269841%; probability: 7.951660932276004e-90
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 00:58:59.420375
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 772.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 210.50617218017578 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 5
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 772, "filtered_equations": 1008, "failure": false, "runtime": 210.50617218017578, "status": "INTERRUPTED", "equations_used": 772.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1053; delta: 1507; threshold: 46
+INFO:root:Total filtered: 1053; true: 775; false: 278; false-positive rate: 26.400759734093064%; probability: 7.8181175205034e-102
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:02:30.364245
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 2
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 162
+WARNING:root:Num incorrect classified: 8
+WARNING:root:Num incorrect s_1 coefficients 251
+WARNING:root:Rank of correctly classified equations: 162
+DEBUG:root:Rank of candidate: 170
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 775, "filtered_equations": 1053, "failure": true, "runtime": 300.0475580692291, "status": "TIME_LIMIT", "equations_used": 170.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 737, "timeout_limit": 300}
+INFO:root:total_eq = 770; m = 358; notion_of_success = 737 did not succeed! Trying again with 738
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1026; delta: 1534; threshold: 46
+INFO:root:Total filtered: 1026; true: 776; false: 250; false-positive rate: 24.366471734892787%; probability: 2.046875716795283e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:07:30.914677
+INFO:root:Candidate is correct with different sign
+INFO:root:Gurobi finish status: "INTERRUPTED"
+INFO:root:Candidate is correct with different sign
+INFO:root:We used 776.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 225.39654207229614 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 0
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 776, "filtered_equations": 1026, "failure": false, "runtime": 225.39654207229614, "status": "INTERRUPTED", "equations_used": 776.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1024; delta: 1536; threshold: 46
+INFO:root:Total filtered: 1024; true: 776; false: 248; false-positive rate: 24.21875%; probability: 8.163609376323598e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:11:16.698479
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 3
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 170
+WARNING:root:Num incorrect classified: 7
+WARNING:root:Num incorrect s_1 coefficients 251
+WARNING:root:Rank of correctly classified equations: 170
+DEBUG:root:Rank of candidate: 177
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 776, "filtered_equations": 1024, "failure": true, "runtime": 300.0418498516083, "status": "TIME_LIMIT", "equations_used": 177.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1033; delta: 1527; threshold: 46
+INFO:root:Total filtered: 1033; true: 771; false: 262; false-positive rate: 25.36302032913843%; probability: 7.401094227909474e-98
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:16:17.244928
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 2
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 166
+WARNING:root:Num incorrect classified: 5
+WARNING:root:Num incorrect s_1 coefficients 252
+WARNING:root:Rank of correctly classified equations: 166
+DEBUG:root:Rank of candidate: 171
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 771, "filtered_equations": 1033, "failure": true, "runtime": 300.0558350086212, "status": "TIME_LIMIT", "equations_used": 171.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+INFO:root:total_eq = 770; m = 358; notion_of_success = 771 did not succeed! Trying again with 772
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1044; delta: 1516; threshold: 46
+INFO:root:Total filtered: 1044; true: 772; false: 272; false-positive rate: 26.053639846743295%; probability: 1.256092865229086e-100
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:21:17.785914
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 2
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 152
+WARNING:root:Num incorrect classified: 5
+WARNING:root:Num incorrect s_1 coefficients 248
+WARNING:root:Rank of correctly classified equations: 152
+DEBUG:root:Rank of candidate: 157
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 772, "filtered_equations": 1044, "failure": true, "runtime": 300.02951097488403, "status": "TIME_LIMIT", "equations_used": 157.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 6 signatures.
+INFO:root:Before filter: 3072; after filter: 1259; delta: 1813; threshold: 46
+INFO:root:Total filtered: 1259; true: 926; false: 333; false-positive rate: 26.449563145353455%; probability: 1.3904389341978065e-93
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:26:18.404819
+INFO:root:Candidate is correct with same sign
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+INFO:root:Candidate is correct with same sign
+INFO:root:We used 926.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 300.04425406455994 seconds.
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 6
+DEBUG:root:All zero entries were found and non of the found was classified incorrectly!
+INFO:root:Successful recovery!
+DEBUG:root:{"total_equations": 926, "filtered_equations": 1259, "failure": false, "runtime": 300.04425406455994, "status": "TIME_LIMIT", "equations_used": 926.0, "m": 358, "num_signatures": 6, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+INFO:root:We will have m=358 non-zero entries. Meaning we will have 154 zero entries.
+INFO:root:We will use 5 signatures.
+INFO:root:Before filter: 2560; after filter: 1028; delta: 1532; threshold: 46
+INFO:root:Total filtered: 1028; true: 772; false: 256; false-positive rate: 24.90272373540856%; probability: 6.798333128077999e-96
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-09 01:31:18.856006
+INFO:root:Gurobi finish status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+DEBUG:root:s_1_recovered is None? False; x is None? False
+INFO:root:num_incorrect_b_entries: 4
+DEBUG:root:Not all zero entries were found and some of the found were classified incorrectly!
+WARNING:root:Num correct classified: 170
+WARNING:root:Num incorrect classified: 4
+WARNING:root:Num incorrect s_1 coefficients 256
+WARNING:root:Rank of correctly classified equations: 170
+DEBUG:root:Rank of candidate: 174
+INFO:root:Failed recovery!
+DEBUG:root:{"total_equations": 772, "filtered_equations": 1028, "failure": true, "runtime": 300.0538251399994, "status": "TIME_LIMIT", "equations_used": 174.0, "m": 358, "num_signatures": 5, "nist_param_level": 3, "threshold": 46, "notion_of_success": 771, "timeout_limit": 300}
+Traceback (most recent call last):
+  File "/home/users/alexis/alexis-loop-abort-faults/bliss/bliss_surplus_fast.py", line 49, in <module>
+    main()
+  File "/home/users/alexis/alexis-loop-abort-faults/bliss/bliss_surplus_fast.py", line 38, in main
+    assert all([num_good_eqs == num for num in nums_good_eqs])
+AssertionError

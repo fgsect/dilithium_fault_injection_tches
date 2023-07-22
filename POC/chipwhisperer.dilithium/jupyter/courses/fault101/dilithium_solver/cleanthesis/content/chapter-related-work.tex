@@ -1,0 +1,25 @@
+% !TEX root = ../my-thesis.tex
+%
+\chapter{Related Work}
+\label{sec:related}
+
+Since many lattice based signature schemes are based on worst-case to average-case reductions \cite{sis} they are almost provably secure. Due to this and because the NIST explicitly encouraged to focus more research on implementation security \cite{nistcall,nistsecond}, the implementation security of lattice-based signature schemes received more scrutiny recently.
+
+
+Using the same loop-abort attack scenario we will use in our thesis Espitau et al. presented attacks on Fiat-Shamir type lattice-based signatures  \cite{espitau}, where the masking polynomial is faulted to have abnormal low degree. Their attack is presented in detail in section \ref{sec:espitauattack}. Furthermore they presented a similar attack approach on Hash-and-Sign type lattice based signatures.
+Their attacks and proposed countermeasures inspired our work.
+
+Additionally they presented fault attacks against two PQC key-exchange protocols: NewHope as well as Frodo \cite{espitau_kem}. In both schemes they aborted the loop which sampled a commitment polynomial. While it would be interesting to see if our attack can also break the shuffling countermeasure for these two schemes, this is out of scope for this thesis.
+
+
+
+Bruinderink and Pessel did a thorough analysis on differential fault attacks  \cite{Groot_Bruinderink_Pessl_2018}. This work included a partial nonce-reuse attack where similar to our attack scenario some of the coefficients in the masking vector $y$ are being faulted. Despite this similarity their attack scenario was more broad as that the faulted entries in $y$ are assumed to be random in contrast to our more constraint assumption that the faulted values are constant. Additionally they always require a faulted and non-faulted signature pair for a fixed message whereas we simply require faulted signature of arbitrary messages.
+
+
+%Prior work by Espitau et al. \cite{espitau} has shown that lattice-based signature schemes based on Fiat-Shamir with aborts (over ideal lattices) leak secret information if a masking vector is not properly sampled. Fault injections can cause such an improper sampling and thus can be used to reveal the secret key. To mitigate this attack, a proposed countermeasure is to shuffle the sampling of the masking vector, randomizing the order of its entries. A second countermeasure was to check whether the upper few coefficients are zero and abort if too many are zero. Our work will focus on breaking the first proposed countermeasure.
+
+Bindel et al. discussed a zeroing attack in which some entries of the masking vector are zeroed  \cite[pp.~72--73]{sensitivity}.
+In contrast to Espitau et al. \cite{espitau} they did not assume the zeroed coefficients to be the upper ones of the polynomial, but they still assumed that the zeroed coefficients are located right next to each other and that the coefficients are not shuffled after sampling.
+While not discussed by the authors in detail, this allows for a better statistical analysis with lower false-positive rate to classify zeroed vs. non-zeroed coefficients.
+Thus the authors did just assume that the classification of zero coefficients is perfect. Our work gives a possible solution for an attacker which does not classify perfectly.
+\todo{A: add and discuss more related work}

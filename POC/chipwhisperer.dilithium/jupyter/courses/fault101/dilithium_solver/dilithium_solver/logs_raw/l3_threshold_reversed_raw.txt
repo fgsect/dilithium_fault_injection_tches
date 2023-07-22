@@ -1,0 +1,1981 @@
+DEBUG:root:The script is running!
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1279 non-zero entries. Meaning we will have 1 zero entries.
+INFO:root:We will use 22160 signatures.
+INFO:root:Before filter: 5672960; after filter: 289; delta: 5672671; threshold: 1
+INFO:root:Total filtered: 289; true: 273; false: 16; false-positive rate: 5.536332179930796%; probability: 1.573601313071406e-17
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:01:22.600088
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 578 rows, 545 columns and 28900 nonzeros
+Model fingerprint: 0x3fe79a73
+Variable types: 0 continuous, 545 integer (289 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 578 rows, 545 columns, 28900 nonzeros
+Variable types: 0 continuous, 545 integer (289 binary)
+
+Root relaxation: objective 2.887898e+02, 1633 iterations, 0.80 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  288.78985    0  288   -0.00000  288.78985      -     -    0s
+H    0     0                      39.0000000  288.78985   640%     -    0s
+H    0     0                      82.0000000  288.78985   252%     -    0s
+H    0     0                      90.0000000  288.78985   221%     -    1s
+H    0     0                      92.0000000  288.78893   214%     -    1s
+     0     0  288.78893    0  288   92.00000  288.78893   214%     -    1s
+     0     2  288.78893    0  288   92.00000  288.78893   214%     -    3s
+   103   144  282.92167    7  283   92.00000  288.77162   214%   129    7s
+H  108   144                      95.0000000  288.77162   204%   126    7s
+   183   224  282.91445    9  283   95.00000  288.76546   204%   110   10s
+  1361  1514  282.86557   48  283   95.00000  288.74570   204%  65.0   15s
+  3822  4154  282.73212  134  283   95.00000  288.74570   204%  48.1   20s
+  7312  7804  281.40757  260  283   95.00000  288.74570   204%  41.8   25s
+H10516 10305                      98.0000000  288.73942   195%  45.3   28s
+ 11822 11937  287.51053   63  288   98.00000  288.73942   195%  49.2   30s
+ 15415 15562  284.85534  164  287   98.00000  288.73942   195%  55.2   38s
+H15840 15562                      99.0000000  288.73942   192%  55.9   38s
+ 16482 16129  288.65675   37  288   99.00000  288.73942   192%  57.1   65s
+ 16487 16135  288.73942   16  289   99.00000  288.73942   192%  57.2   76s
+ 16489 16139  287.81603   17  288   99.00000  288.73942   192%  57.2   84s
+ 16493 16145  286.83864   18  287   99.00000  288.73942   192%  57.2   85s
+ 16589 16241  286.81723   22  287   99.00000  288.73942   192%  57.5   91s
+H16607 15428                     100.0000000  288.73942   189%  57.6   91s
+ 16669 15488  286.81476   23  287  100.00000  288.73942   189%  57.7   95s
+ 18384 16631  286.63673   42  287  100.00000  288.73942   189%  62.5  100s
+ 21954 19360  286.47791   70  287  100.00000  288.73942   189%  66.5  105s
+ 26777 21733  282.52039   98  283  100.00000  288.73942   189%  67.8  110s
+ 28232 22324  280.47924  112  281  100.00000  288.73942   189%  70.8  148s
+ 28272 22351  278.53462  113  279  100.00000  288.73942   189%  70.9  151s
+H28280 21582                     102.0000000  288.73942   183%  70.9  151s
+H28295 20849                     105.0000000  288.73942   175%  70.9  151s
+ 29079 21749  275.60937  121  276  105.00000  288.73942   175%  72.3  157s
+ 29539 21636  274.56859  127  275  105.00000  288.73942   175%  73.3  161s
+H29540 20943                     109.0000000  288.73942   165%  73.3  161s
+H29548 20284                     110.0000000  288.73942   162%  73.3  161s
+ 31312 21869  271.60022  144  272  110.00000  288.73942   162%  76.0  165s
+ 33144 22473  265.72207  161  266  110.00000  288.73942   162%  78.9  171s
+ 33184 25756  264.74188  162  265  110.00000  288.73942   162%  79.0  178s
+ 36544 25734  257.76459  204  258  110.00000  288.73942   162%  85.8  180s
+ 39061 27269  252.77897  226  253  110.00000  288.73942   162%  87.8  185s
+ 44171 29322  244.60922  288  245  110.00000  288.73942   162%  91.5  192s
+ 45072 30683  240.60668  304  241  110.00000  288.73942   162%  92.9  198s
+ 45962 31657  236.64862  316  237  110.00000  288.73942   162%  94.5  200s
+ 49711 34095  213.90265  388  214  110.00000  288.73942   162%  99.4  206s
+ 51188 33642  191.84201  439  192  110.00000  288.73942   162%   101  210s
+H51191 32990                     112.0000000  288.73942   158%   101  210s
+ 54299 37041  285.73561   37  286  112.00000  288.73942   158%   103  216s
+ 57566 40400  283.62878   64  284  112.00000  288.73942   158%   106  221s
+ 61428 44509  282.50765   91  283  112.00000  288.73942   158%   109  226s
+ 65448 49855  273.64312  116  274  112.00000  288.73942   158%   111  233s
+ 69312 51545  267.72056  137  268  112.00000  288.73942   158%   113  235s
+ 73063 56090  261.68501  165  262  112.00000  288.73942   158%   114  241s
+ 78457 61366  254.74278  198  255  112.00000  288.73942   158%   116  247s
+ 81122 64087  249.77572  219  250  112.00000  288.73942   158%   117  251s
+ 87172 69544  242.73901  254  243  112.00000  288.73942   158%   118  258s
+ 89878 70142  240.71837  266  241  112.00000  288.73942   158%   118  264s
+ 90516 72963  239.70975  265  240  112.00000  288.73942   158%   118  268s
+ 93629 75549  235.70371  283  236  112.00000  288.73942   158%   119  272s
+ 96233 78940  229.69582  304  230  112.00000  288.73942   158%   120  276s
+ 99656 84016  221.78783  329  222  112.00000  288.73942   158%   121  282s
+ 104977 88436  209.87348  365  210  112.00000  288.73942   158%   121  286s
+ 109574 91647  201.88021  386  202  112.00000  288.73942   158%   120  290s
+ 115983 97748  287.73754   32  288  112.00000  288.73942   158%   121  299s
+ 119356 98151  279.81639   59  280  112.00000  288.73942   158%   122  300s
+
+Explored 119763 nodes (14577811 simplex iterations) in 300.02 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 112 110 109 ... 92
+
+Time limit reached
+Best objective 1.120000000000e+02, best bound 2.880000000000e+02, gap 157.1429%
+
+User-callback calls 284760, time in user-callback 1.11 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5672960; after filter: 270; delta: 5672690; threshold: 1
+INFO:root:Total filtered: 270; true: 256; false: 14; false-positive rate: 5.185185185185185%; probability: 1.1225128636413361e-23
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:06:27.601780
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 540 rows, 526 columns and 27000 nonzeros
+Model fingerprint: 0x4c8f46d9
+Variable types: 0 continuous, 526 integer (270 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5672960; after filter: 303; delta: 5672657; threshold: 1
+INFO:root:Total filtered: 303; true: 292; false: 11; false-positive rate: 3.6303630363036308%; probability: 4.2269051282952055e-10
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:06:32.528127
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 606 rows, 559 columns and 30300 nonzeros
+Model fingerprint: 0x61a22c8f
+Variable types: 0 continuous, 559 integer (303 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5672960; after filter: 311; delta: 5672649; threshold: 1
+INFO:root:Total filtered: 311; true: 300; false: 11; false-positive rate: 3.536977491961415%; probability: 2.169705515718344e-09
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:06:36.781506
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 622 rows, 567 columns and 31100 nonzeros
+Model fingerprint: 0x689e6c09
+Variable types: 0 continuous, 567 integer (311 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5672960; after filter: 285; delta: 5672675; threshold: 1
+INFO:root:Total filtered: 285; true: 277; false: 8; false-positive rate: 2.807017543859649%; probability: 4.390184926166197e-09
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:06:40.321761
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 570 rows, 541 columns and 28500 nonzeros
+Model fingerprint: 0x79631a82
+Variable types: 0 continuous, 541 integer (285 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 273, "total_equations": 5672960, "filtered_equations": 289, "duration": 300.0248601436615, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 5672960, "filtered_equations": 270, "duration": 0.006767988204956055, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 292, "total_equations": 5672960, "filtered_equations": 303, "duration": 0.006579875946044922, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 300, "total_equations": 5672960, "filtered_equations": 311, "duration": 0.006930112838745117, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 277, "total_equations": 5672960, "filtered_equations": 285, "duration": 0.006502866744995117, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1279, "num_signatures": 22160, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1279 non-zero entries. Meaning we will have 1 zero entries.
+INFO:root:We will use 21200 signatures.
+INFO:root:Before filter: 5427200; after filter: 292; delta: 5426908; threshold: 1
+INFO:root:Total filtered: 292; true: 275; false: 17; false-positive rate: 5.821917808219178%; probability: 6.027364886569968e-18
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:07:11.677974
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 584 rows, 548 columns and 29200 nonzeros
+Model fingerprint: 0xf4423227
+Variable types: 0 continuous, 548 integer (292 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 584 rows, 548 columns, 29200 nonzeros
+Variable types: 0 continuous, 548 integer (292 binary)
+
+Root relaxation: objective 2.917665e+02, 1896 iterations, 0.95 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  291.76654    0  292   -0.00000  291.76654      -     -    1s
+H    0     0                      39.0000000  291.76654   648%     -    1s
+H    0     0                      83.0000000  291.76654   252%     -    1s
+H    0     0                      89.0000000  291.76654   228%     -    1s
+H    0     0                      94.0000000  291.76343   210%     -    1s
+     0     0  291.76343    0  292   94.00000  291.76343   210%     -    1s
+     0     2  291.76343    0  292   94.00000  291.76343   210%     -    3s
+   103   144  285.89652    7  286   94.00000  291.73613   210%   140    7s
+H  123   144                      95.0000000  291.73059   207%   130    7s
+   183   224  285.89052    9  286   95.00000  291.72508   207%   118   10s
+   704   825  285.85953   24  286   95.00000  291.67993   207%  81.1   15s
+  3185  3482  285.68897  106  286   95.00000  291.67993   207%  56.5   20s
+  6847  7382  284.33672  237  286   95.00000  291.67993   207%  50.3   25s
+ 12331 12388  288.34084  104  289   95.00000  291.67754   207%  56.8   30s
+ 13740 13822  286.08638  144  287   95.00000  291.67754   207%  60.1   36s
+ 16550 16139  290.61478   58  292   95.00000  291.67754   207%  65.3   65s
+ 16555 16145  291.67754   15  292   95.00000  291.67754   207%  65.3   76s
+ 16557 16149  290.79423   16  291   95.00000  291.67754   207%  65.4   85s
+ 16657 16251  289.79991   21  289   95.00000  291.67754   207%  65.7   91s
+H16666 15440                      97.0000000  291.67754   201%  65.7   91s
+ 16737 15497  289.78076   22  290   97.00000  291.67754   201%  66.0   95s
+ 18573 16865  289.63803   40  290   97.00000  291.67754   201%  70.6  100s
+ 21272 18834  288.54368   61  289   97.00000  291.67754   201%  74.3  105s
+ 26199 21535  285.47649   93  286   97.00000  291.67754   201%  74.7  110s
+H26570 20685                      99.0000000  291.67754   195%  75.4  112s
+H26576 19954                     100.0000000  291.67754   192%  75.4  112s
+ 26610 19983  284.47807   98  285  100.00000  291.67754   192%  75.4  143s
+ 26935 20259  281.55525  101  282  100.00000  291.67754   192%  76.1  148s
+ 27052 20386  281.53472  102  282  100.00000  291.67754   192%  76.3  152s
+ 27984 21275  278.58734  112  279  100.00000  291.67754   192%  77.9  155s
+ 30456 22238  275.56550  137  276  100.00000  291.67754   192%  80.5  163s
+ 31111 23250  275.51633  143  276  100.00000  291.67754   192%  81.4  165s
+ 33099 26072  271.55537  164  272  100.00000  291.67754   192%  84.1  170s
+ 39030 27990  259.67456  218  260  100.00000  291.67754   192%  88.3  175s
+ 40343 28977  252.70399  236  253  100.00000  291.67754   192%  90.8  180s
+ 42915 30102  243.74773  276  244  100.00000  291.67754   192%  94.9  187s
+ 44132 31787  236.79924  295  237  100.00000  291.67754   192%  97.0  190s
+ 47962 34340  220.81416  355  221  100.00000  291.67754   192%   102  195s
+ 51883 36639  288.70556   31  289  100.00000  291.67754   192%   105  200s
+ 56106 39141  268.62688   99  269  100.00000  291.67754   192%   110  208s
+ 57182 40506  266.58797  106  267  100.00000  291.67754   192%   110  211s
+ 60809 43538  242.87798  162  243  100.00000  291.67754   192%   112  216s
+ 64385 47646  217.91420  227  218  100.00000  291.67754   192%   114  221s
+ 66611 51910  202.90305  283  203  100.00000  291.67754   192%   114  226s
+ 73206 56439  287.65439   46  288  100.00000  291.67754   192%   115  231s
+ 78157 59015  265.74792   92  266  100.00000  291.67754   192%   116  237s
+ 78198 61670  265.74146   93  266  100.00000  291.67754   192%   116  240s
+ 80965 64391  250.86240  123  251  100.00000  291.67754   192%   116  245s
+ 86459 69528  220.92539  204  221  100.00000  291.67754   192%   117  251s
+ 89264 72125  201.95057  251  202  100.00000  291.67754   192%   117  255s
+ 95248 78192  153.98104  490  154  100.00000  291.67754   192%   118  262s
+ 98306 80970  289.71748   39  289  100.00000  291.67754   192%   118  265s
+ 101212 86332  283.70747   57  284  100.00000  291.67754   192%   119  272s
+ 106620 90086  276.69077   98  277  100.00000  291.67754   192%   120  276s
+ 110635 92955  270.71655  121  271  100.00000  291.67754   192%   121  281s
+ 113704 96229  266.78180  132  267  100.00000  291.67754   192%   121  285s
+ 117052 97728  261.76431  152  262  100.00000  291.67754   192%   122  291s
+ 118551 102359  258.77699  162  258  100.00000  291.67754   192%   122  297s
+ 123242 102987  250.83274  190  251  100.00000  291.67754   192%   123  300s
+
+Explored 123922 nodes (15220718 simplex iterations) in 300.04 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 9: 100 99 97 ... -0
+
+Time limit reached
+Best objective 1.000000000000e+02, best bound 2.910000000000e+02, gap 191.0000%
+
+User-callback calls 286064, time in user-callback 1.02 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5427200; after filter: 285; delta: 5426915; threshold: 1
+INFO:root:Total filtered: 285; true: 268; false: 17; false-positive rate: 5.964912280701754%; probability: 5.561613029686958e-20
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:12:16.495217
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 570 rows, 541 columns and 28500 nonzeros
+Model fingerprint: 0x62632e3c
+Variable types: 0 continuous, 541 integer (285 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5427200; after filter: 289; delta: 5426911; threshold: 1
+INFO:root:Total filtered: 289; true: 279; false: 10; false-positive rate: 3.4602076124567476%; probability: 9.673639592254845e-11
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:12:20.895263
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 578 rows, 545 columns and 28900 nonzeros
+Model fingerprint: 0xf5b6b50a
+Variable types: 0 continuous, 545 integer (289 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5427200; after filter: 265; delta: 5426935; threshold: 1
+INFO:root:Total filtered: 265; true: 256; false: 9; false-positive rate: 3.3962264150943398%; probability: 6.459363774689903e-17
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:12:25.447444
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 530 rows, 521 columns and 26500 nonzeros
+Model fingerprint: 0x9622e083
+Variable types: 0 continuous, 521 integer (265 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 5427200; after filter: 291; delta: 5426909; threshold: 1
+INFO:root:Total filtered: 291; true: 274; false: 17; false-positive rate: 5.841924398625429%; probability: 3.377759635423251e-18
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:12:29.361696
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 582 rows, 547 columns and 29100 nonzeros
+Model fingerprint: 0xd699840e
+Variable types: 0 continuous, 547 integer (291 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 275, "total_equations": 5427200, "filtered_equations": 292, "duration": 300.0401599407196, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 268, "total_equations": 5427200, "filtered_equations": 285, "duration": 0.006853818893432617, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 279, "total_equations": 5427200, "filtered_equations": 289, "duration": 0.0068628787994384766, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 5427200, "filtered_equations": 265, "duration": 0.006201982498168945, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 274, "total_equations": 5427200, "filtered_equations": 291, "duration": 0.00636601448059082, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1279, "num_signatures": 21200, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+INFO:root:m = 1279; threshold = 1 did not succeed, trying again with increased f = 2 (decreased m = 1278)
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1278 non-zero entries. Meaning we will have 2 zero entries.
+INFO:root:We will use 10428 signatures.
+INFO:root:Before filter: 2669568; after filter: 300; delta: 2669268; threshold: 1
+INFO:root:Total filtered: 300; true: 291; false: 9; false-positive rate: 3.0%; probability: 1.4753328524020644e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:12:46.945001
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 600 rows, 556 columns and 30000 nonzeros
+Model fingerprint: 0x4c1b39ea
+Variable types: 0 continuous, 556 integer (300 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.04s
+Presolved: 600 rows, 556 columns, 30000 nonzeros
+Variable types: 0 continuous, 556 integer (300 binary)
+
+Root relaxation: objective 2.997879e+02, 1798 iterations, 0.91 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  299.78788    0  300   -0.00000  299.78788      -     -    1s
+H    0     0                      26.0000000  299.78788  1053%     -    1s
+H    0     0                      83.0000000  299.78788   261%     -    1s
+H    0     0                      85.0000000  299.78129   253%     -    1s
+     0     0  299.78129    0  300   85.00000  299.78129   253%     -    1s
+     0     2  299.78129    0  300   85.00000  299.78129   253%     -    3s
+   103   144  293.89380    7  294   85.00000  299.75957   253%   145    7s
+H  106   144                      87.0000000  299.75957   245%   144    7s
+H  111   144                      88.0000000  299.75957   241%   143    7s
+H  126   144                      89.0000000  299.75672   237%   136    7s
+   183   224  293.87955    9  294   89.00000  299.75346   237%   123   10s
+H  300   356                      90.0000000  299.73980   233%   107   11s
+H  349   356                      93.0000000  299.73252   222%   103   11s
+  1839  2001  293.79221   52  294   93.00000  299.72650   222%  63.2   15s
+  4211  4516  293.60658  141  294   93.00000  299.72650   222%  50.2   20s
+  6695  7097  292.65581  212  294   93.00000  299.72650   222%  46.4   25s
+ 11213 11316  299.59403   56  300   93.00000  299.72464   222%  49.2   30s
+ 13367 13077  286.54338  100  287   93.00000  299.72464   222%  55.8   35s
+H13472 13465                      95.0000000  299.72464   215%  56.1   36s
+H13541 13465                      98.0000000  299.72464   206%  56.3   36s
+ 13828 13869  283.58970  109  284   98.00000  299.72464   206%  57.0   40s
+ 14232 13909  280.63756  118  281   98.00000  299.72464   206%  58.3   45s
+H14251 13909                     104.0000000  299.72464   188%  58.4   45s
+ 14272 13949  280.63730  119  281  104.00000  299.72464   188%  58.5   75s
+ 16276 15913  298.43013  105  300  104.00000  299.72464   188%  63.6  104s
+ 16278 15914  297.08856  160  300  104.00000  299.72464   188%  63.6  105s
+ 16281 15919  299.72464   12  300  104.00000  299.72464   188%  63.7  116s
+ 16283 15923  298.79749   13  299  104.00000  299.72464   188%  63.7  125s
+ 16343 15999  297.77153   17  298  104.00000  299.72464   188%  64.1  130s
+H16391 15227                     106.0000000  299.72464   183%  64.4  133s
+ 16463 15283  297.75453   19  298  106.00000  299.72464   183%  64.7  137s
+ 17543 16072  297.67994   29  297  106.00000  299.72464   183%  68.0  140s
+ 20034 17847  296.60162   51  297  106.00000  299.72464   183%  70.8  147s
+ 22394 19633  297.46221   70  298  106.00000  299.72464   183%  70.5  150s
+ 26252 21004  292.47749   96  293  106.00000  299.72464   183%  69.4  188s
+ 26565 21211  290.54323   99  291  106.00000  299.72464   183%  69.9  193s
+H26566 20455                     108.0000000  299.72464   178%  69.9  193s
+ 27319 21235  288.55167  108  289  108.00000  299.72464   178%  71.1  195s
+ 28848 22240  285.53500  126  286  108.00000  299.72464   178%  74.3  203s
+ 29255 22537  283.56032  131  284  108.00000  299.72464   178%  75.1  205s
+ 30675 23002  278.58651  149  279  108.00000  299.72464   178%  77.5  212s
+ 32454 25676  276.61757  175  277  108.00000  299.72464   178%  79.7  217s
+ 34665 26535  270.64145  207  271  108.00000  299.72464   178%  82.6  220s
+ 36760 26957  268.60805  232  268  108.00000  299.72464   178%  83.7  225s
+ 39887 29660  259.57356  273  260  108.00000  299.72464   178%  85.6  231s
+ 40859 30214  252.65508  291  253  108.00000  299.72464   178%  86.7  236s
+ 43875 32613  237.70125  344  238  108.00000  299.72464   178%  90.2  240s
+ 47773 34688  295.64150   38  296  108.00000  299.72464   178%  93.2  245s
+ 51476 37113  270.82087   90  271  108.00000  299.72464   178%  96.5  251s
+ 54168 39219  251.89146  125  252  108.00000  299.72464   178%   100  256s
+ 55842 38700  240.92987  147  241  108.00000  299.72464   178%   101  261s
+ 57621 41338  229.92626  175  230  108.00000  299.72464   178%   102  266s
+ 61033 44179  202.94979  273  203  108.00000  299.72464   178%   103  271s
+ 64738 48714  175.99834  466  176  108.00000  299.72464   178%   105  283s
+ 67564 51177  289.76659   47  289  108.00000  299.72464   178%   106  286s
+ 70073 53526  276.74658   82  277  108.00000  299.72464   178%   107  293s
+ 72538 55963  260.83757  115  261  108.00000  299.72464   178%   108  296s
+ 75090 58456  242.89980  153  243  108.00000  299.72464   178%   108  300s
+
+Explored 77747 nodes (8458133 simplex iterations) in 300.06 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 108 106 104 ... 87
+
+Time limit reached
+Best objective 1.080000000000e+02, best bound 2.990000000000e+02, gap 176.8519%
+
+User-callback calls 216457, time in user-callback 1.18 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2669568; after filter: 313; delta: 2669255; threshold: 1
+INFO:root:Total filtered: 313; true: 303; false: 10; false-positive rate: 3.1948881789137378%; probability: 2.007763745313002e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:17:49.540565
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 626 rows, 569 columns and 31300 nonzeros
+Model fingerprint: 0x2a41eca6
+Variable types: 0 continuous, 569 integer (313 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2669568; after filter: 272; delta: 2669296; threshold: 1
+INFO:root:Total filtered: 272; true: 266; false: 6; false-positive rate: 2.2058823529411766%; probability: 1.5050685002336966e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:17:51.608841
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 544 rows, 528 columns and 27200 nonzeros
+Model fingerprint: 0x525fac22
+Variable types: 0 continuous, 528 integer (272 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2669568; after filter: 279; delta: 2669289; threshold: 1
+INFO:root:Total filtered: 279; true: 275; false: 4; false-positive rate: 1.4336917562724014%; probability: 3.583950121840342e-05
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:17:53.592662
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 558 rows, 535 columns and 27900 nonzeros
+Model fingerprint: 0x294d3433
+Variable types: 0 continuous, 535 integer (279 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2669568; after filter: 264; delta: 2669304; threshold: 1
+INFO:root:Total filtered: 264; true: 256; false: 8; false-positive rate: 3.0303030303030303%; probability: 1.9019237781031375e-15
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:17:55.602712
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 528 rows, 520 columns and 26400 nonzeros
+Model fingerprint: 0xa410a8dc
+Variable types: 0 continuous, 520 integer (264 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 291, "total_equations": 2669568, "filtered_equations": 300, "duration": 300.06153178215027, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 303, "total_equations": 2669568, "filtered_equations": 313, "duration": 0.007701873779296875, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 266, "total_equations": 2669568, "filtered_equations": 272, "duration": 0.006671905517578125, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 275, "total_equations": 2669568, "filtered_equations": 279, "duration": 0.006942033767700195, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 2669568, "filtered_equations": 264, "duration": 0.006428956985473633, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1278, "num_signatures": 10428, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1278 non-zero entries. Meaning we will have 2 zero entries.
+INFO:root:We will use 10164 signatures.
+INFO:root:Before filter: 2601984; after filter: 284; delta: 2601700; threshold: 1
+INFO:root:Total filtered: 284; true: 277; false: 7; false-positive rate: 2.464788732394366%; probability: 4.314492082611608e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:18:12.053574
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 568 rows, 540 columns and 28400 nonzeros
+Model fingerprint: 0x50d32315
+Variable types: 0 continuous, 540 integer (284 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 568 rows, 540 columns, 28400 nonzeros
+Variable types: 0 continuous, 540 integer (284 binary)
+
+Root relaxation: objective 2.838298e+02, 1847 iterations, 0.90 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  283.82975    0  284   -0.00000  283.82975      -     -    1s
+H    0     0                      26.0000000  283.82975   992%     -    1s
+H    0     0                      83.0000000  283.82975   242%     -    1s
+H    0     0                      87.0000000  283.82975   226%     -    1s
+H    0     0                      88.0000000  283.81881   223%     -    1s
+     0     0  283.81881    0  284   88.00000  283.81881   223%     -    1s
+     0     2  283.81881    0  284   88.00000  283.81881   223%     -    3s
+    63   104  277.93930    6  278   88.00000  283.80846   223%   142    5s
+   183   224  277.93429    9  278   88.00000  283.79027   222%   109   11s
+   707   748  277.91793   23  277   88.00000  283.78309   222%  67.0   17s
+  1333  1520  277.89998   43  278   88.00000  283.78309   222%  58.3   20s
+  3544  3902  277.81693  126  278   88.00000  283.78309   222%  45.5   25s
+  7282  7749  276.41941  245  278   88.00000  283.78309   222%  38.3   30s
+ 11673 11796  273.82419   61  274   88.00000  283.77908   222%  45.7   35s
+ 13500 13591  267.76677   82  268   88.00000  283.77908   222%  48.3   41s
+H13951 13631                      96.0000000  283.77908   196%  49.1   43s
+ 13978 13671  267.71250   96  268   96.00000  283.77908   196%  49.3   75s
+ 14457 14597  264.71601  104  265   96.00000  283.77908   196%  50.1   82s
+H14594 14597                      99.0000000  283.77908   187%  50.2   82s
+ 15589 15748  261.67100  125  262   99.00000  283.77908   187%  51.4   86s
+ 16146 15749  280.77110  138  284   99.00000  283.77908   187%  52.2  120s
+ 16151 15755  283.77908   13  284   99.00000  283.77908   187%  52.3  132s
+ 16153 15759  282.85526   14  283   99.00000  283.77908   187%  52.3  140s
+ 16253 15861  281.85852   19  282   99.00000  283.77908   187%  52.6  146s
+ 16439 16018  281.83156   21  282   99.00000  283.77908   187%  53.3  150s
+ 18845 17752  281.62009   50  282   99.00000  283.77908   187%  60.5  155s
+ 23477 20881  281.45618   79  282   99.00000  283.77908   187%  64.5  160s
+ 26049 21835  273.66444   94  274   99.00000  283.77908   187%  65.9  166s
+ 27266 22441  273.62430  107  274   99.00000  283.77908   187%  69.3  201s
+ 27346 22495  273.61563  108  274   99.00000  283.77908   187%  69.7  207s
+H27349 21706                     101.0000000  283.77908   181%  69.7  207s
+ 28015 22518  271.65002  115  272  101.00000  283.77908   181%  70.9  211s
+H28487 21649                     102.0000000  283.77908   178%  71.8  214s
+ 28511 22150  269.68149  121  270  102.00000  283.77908   178%  71.8  215s
+ 30820 23583  262.74789  146  263  102.00000  283.77908   178%  75.6  220s
+ 31446 23410  260.74811  154  261  102.00000  283.77908   178%  76.5  226s
+ 32950 26738  258.68872  169  259  102.00000  283.77908   178%  77.5  230s
+ 36518 27068  256.47880  208  257  102.00000  283.77908   178%  80.7  235s
+H36757 26278                     104.0000000  283.77908   173%  80.9  235s
+ 41038 29643  246.40599  260  247  104.00000  283.77908   173%  84.8  240s
+ 46704 33714  231.27957  328  232  104.00000  283.77908   173%  88.6  245s
+ 53399 37866  192.84673  463  194  104.00000  283.77908   173%  92.3  250s
+ 55097 38206  163.54449  523  165  104.00000  283.77908   173%  92.9  255s
+ 57104 40480  280.63453   46  281  104.00000  283.77908   173%  93.2  261s
+ 59210 40519  274.61971   63  275  104.00000  283.77908   173%  93.7  265s
+ 62666 45580  257.79535  107  258  104.00000  283.77908   173%  95.7  270s
+ 66780 51645  240.77564  170  241  104.00000  283.77908   173%  97.3  279s
+ 70651 55089  222.75960  228  223  104.00000  283.77908   173%  98.8  281s
+ 76956 59484  191.81375  335  192  104.00000  283.77908   173%  98.8  285s
+ 83353 65965  282.77553   28  283  104.00000  283.77908   173%   100  292s
+ 87641 70425  278.65644   63  279  104.00000  283.77908   173%   101  297s
+ 90233 73482  276.62377   83  277  104.00000  283.77908   173%   102  300s
+
+Explored 93368 nodes (9595677 simplex iterations) in 300.06 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 104 102 101 ... -0
+
+Time limit reached
+Best objective 1.040000000000e+02, best bound 2.830000000000e+02, gap 172.1154%
+
+User-callback calls 249474, time in user-callback 1.26 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2601984; after filter: 266; delta: 2601718; threshold: 1
+INFO:root:Total filtered: 266; true: 258; false: 8; false-positive rate: 3.007518796992481%; probability: 8.050649895574976e-14
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:23:14.279229
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 532 rows, 522 columns and 26600 nonzeros
+Model fingerprint: 0x8e85eef9
+Variable types: 0 continuous, 522 integer (266 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2601984; after filter: 312; delta: 2601672; threshold: 1
+INFO:root:Total filtered: 312; true: 300; false: 12; false-positive rate: 3.8461538461538463%; probability: 3.8943432333406176e-10
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:23:15.879924
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 624 rows, 568 columns and 31200 nonzeros
+Model fingerprint: 0xac411c4a
+Variable types: 0 continuous, 568 integer (312 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2601984; after filter: 298; delta: 2601686; threshold: 1
+INFO:root:Total filtered: 298; true: 289; false: 9; false-positive rate: 3.0201342281879198%; probability: 9.863187718249732e-09
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:23:17.482104
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 596 rows, 554 columns and 29800 nonzeros
+Model fingerprint: 0x79c06637
+Variable types: 0 continuous, 554 integer (298 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 2601984; after filter: 264; delta: 2601720; threshold: 1
+INFO:root:Total filtered: 264; true: 256; false: 8; false-positive rate: 3.0303030303030303%; probability: 1.9019237781031375e-15
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:23:19.082893
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 528 rows, 520 columns and 26400 nonzeros
+Model fingerprint: 0x951c01ce
+Variable types: 0 continuous, 520 integer (264 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 277, "total_equations": 2601984, "filtered_equations": 284, "duration": 300.06155800819397, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 258, "total_equations": 2601984, "filtered_equations": 266, "duration": 0.0068471431732177734, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 300, "total_equations": 2601984, "filtered_equations": 312, "duration": 0.007447957992553711, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 289, "total_equations": 2601984, "filtered_equations": 298, "duration": 0.007107973098754883, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 2601984, "filtered_equations": 264, "duration": 0.006528139114379883, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1278, "num_signatures": 10164, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+INFO:root:m = 1278; threshold = 1 did not succeed, trying again with increased f = 3 (decreased m = 1277)
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1277 non-zero entries. Meaning we will have 3 zero entries.
+INFO:root:We will use 7017 signatures.
+INFO:root:Before filter: 1796352; after filter: 268; delta: 1796084; threshold: 1
+INFO:root:Total filtered: 268; true: 263; false: 5; false-positive rate: 1.8656716417910446%; probability: 7.137217551455233e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:23:30.047287
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 536 rows, 524 columns and 26800 nonzeros
+Model fingerprint: 0xf1bce5fd
+Variable types: 0 continuous, 524 integer (268 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 536 rows, 524 columns, 26800 nonzeros
+Variable types: 0 continuous, 524 integer (268 binary)
+
+Root relaxation: objective 2.679372e+02, 1702 iterations, 0.79 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  267.93716    0  268   -0.00000  267.93716      -     -    0s
+H    0     0                      30.0000000  267.93716   793%     -    0s
+H    0     0                      62.0000000  267.93716   332%     -    0s
+H    0     0                      68.0000000  267.93716   294%     -    1s
+     0     0  267.93341    0  268   68.00000  267.93341   294%     -    1s
+     0     2  267.93341    0  268   68.00000  267.93341   294%     -    2s
+    31    64  262.99583    5  263   68.00000  267.92264   294%   379    5s
+   103   144  261.99708    7  262   68.00000  267.92157   294%   295   11s
+H  107   144                      70.0000000  267.92157   283%   286   11s
+H  126   144                      72.0000000  267.92137   272%   260   11s
+   223   297  261.99658   10  262   72.00000  267.91815   272%   203   15s
+  1543  1789  261.98016   47  262   72.00000  267.91437   272%  74.6   20s
+  6136  6599  261.80623  212  262   72.00000  267.91437   272%  33.7   25s
+  9124  9146  264.91082  149  265   72.00000  267.91437   272%  36.7   30s
+ 12675 12824  261.32868  248  263   72.00000  267.91437   272%  44.8   35s
+ 13199 12904  259.51502  264  262   72.00000  267.91437   272%  45.1   87s
+ 13765 13823  258.22832  282  262   72.00000  267.91437   272%  45.5   91s
+H13813 13823                      78.0000000  267.91437   243%  45.5   91s
+H13828 13823                      79.0000000  267.91437   239%  45.5   91s
+ 14242 13861 infeasible  291        79.00000  267.91045   239%  46.0   95s
+H14251 13861                      81.0000000  267.91045   231%  46.0   95s
+H14260 13861                      85.0000000  267.91045   215%  46.0   95s
+H14283 13861                      89.0000000  267.91045   201%  46.0   95s
+ 16427 15894  262.70558  239  268   89.00000  267.91045   201%  48.5  126s
+ 16432 15900  267.91045   13  268   89.00000  267.91045   201%  48.6  136s
+ 16434 15904  266.94394   14  267   89.00000  267.91045   201%  48.6  144s
+ 16438 15910  265.95803   15  266   89.00000  267.91045   201%  48.7  145s
+ 16534 16006  265.93342   19  266   89.00000  267.91045   201%  49.0  151s
+H16539 15210                      93.0000000  267.91045   188%  49.0  151s
+ 16614 15265  265.92805   20  266   93.00000  267.91045   188%  49.2  155s
+ 18757 16833  265.79808   45  266   93.00000  267.91045   188%  54.8  160s
+ 21715 18947  265.66718   72  266   93.00000  267.91045   188%  61.0  165s
+ 24635 20974  265.45265   95  266   93.00000  267.91045   188%  63.4  170s
+ 28685 22909  253.59680  126  254   93.00000  267.91045   188%  66.7  177s
+ 29660 23122  252.58531  136  253   93.00000  267.91045   188%  68.5  181s
+ 29701 23146  252.56364  136  253   93.00000  267.91045   188%  68.6  218s
+ 29743 23172  252.58497  137  253   93.00000  267.91045   188%  68.7  222s
+H29745 22416                      96.0000000  267.91045   179%  68.7  222s
+ 31352 23831  250.50858  155  251   96.00000  267.91045   179%  70.5  225s
+ 32774 26344  248.47047  176  249   96.00000  267.91045   179%  73.9  230s
+ 34927 26359  243.44660  208  244   96.00000  267.91045   179%  77.8  235s
+ 35626 26743  243.42081  218  244   96.00000  267.91045   179%  78.8  240s
+H35785 25973                      97.0000000  267.91045   176%  78.9  240s
+ 41694 30149  235.44768  285  236   97.00000  267.91045   176%  80.7  245s
+ 47258 33315  207.88237  372  208   97.00000  267.91045   176%  86.4  251s
+ 50579 35419  261.85539   50  262   97.00000  267.91045   176%  90.2  255s
+ 54231 38694  236.93812  123  237   97.00000  267.91045   176%  95.9  261s
+ 58079 41129  218.94337  173  219   97.00000  267.91045   176%  99.3  266s
+ 62013 44975  200.98058  235  201   97.00000  267.91045   176%   103  270s
+ 64089 46937  188.95951  277  189   97.00000  267.91045   176%   104  277s
+ 66099 50542  178.97476  317  179   97.00000  267.91045   176%   105  285s
+ 72136 53875  259.88877   53  260   97.00000  267.90660   176%   107  292s
+ 73383 56240  251.95088   69  252   97.00000  267.90660   176%   108  296s
+ 78303 58862  228.96213  139  229   97.00000  267.90660   176%   112  300s
+
+Explored 78426 nodes (8801266 simplex iterations) in 300.02 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 97 96 93 ... 70
+
+Time limit reached
+Best objective 9.700000000000e+01, best bound 2.670000000000e+02, gap 175.2577%
+
+User-callback calls 239449, time in user-callback 1.55 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1796352; after filter: 292; delta: 1796060; threshold: 1
+INFO:root:Total filtered: 292; true: 285; false: 7; false-positive rate: 2.3972602739726026%; probability: 2.499103427834808e-07
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:28:31.683005
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 584 rows, 548 columns and 29200 nonzeros
+Model fingerprint: 0xa487460d
+Variable types: 0 continuous, 548 integer (292 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1796352; after filter: 273; delta: 1796079; threshold: 1
+INFO:root:Total filtered: 273; true: 270; false: 3; false-positive rate: 1.098901098901099%; probability: 0.00020274928024005513
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:28:32.864293
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 546 rows, 529 columns and 27300 nonzeros
+Model fingerprint: 0x78baa641
+Variable types: 0 continuous, 529 integer (273 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1796352; after filter: 313; delta: 1796039; threshold: 1
+INFO:root:Total filtered: 313; true: 311; false: 2; false-positive rate: 0.6389776357827476%; probability: 0.03268616367657901
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:28:34.056122
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 626 rows, 569 columns and 31300 nonzeros
+Model fingerprint: 0xa075f181
+Variable types: 0 continuous, 569 integer (313 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1796352; after filter: 269; delta: 1796083; threshold: 1
+INFO:root:Total filtered: 269; true: 256; false: 13; false-positive rate: 4.83271375464684%; probability: 2.164846237022577e-22
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:28:35.235313
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 538 rows, 525 columns and 26900 nonzeros
+Model fingerprint: 0xb5c4c81e
+Variable types: 0 continuous, 525 integer (269 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 263, "total_equations": 1796352, "filtered_equations": 268, "duration": 300.0225648880005, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 285, "total_equations": 1796352, "filtered_equations": 292, "duration": 0.0053539276123046875, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 270, "total_equations": 1796352, "filtered_equations": 273, "duration": 0.005017995834350586, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 311, "total_equations": 1796352, "filtered_equations": 313, "duration": 0.005918025970458984, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 1796352, "filtered_equations": 269, "duration": 0.0051059722900390625, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1277, "num_signatures": 7017, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1277 non-zero entries. Meaning we will have 3 zero entries.
+INFO:root:We will use 7227 signatures.
+INFO:root:Before filter: 1850112; after filter: 285; delta: 1849827; threshold: 1
+INFO:root:Total filtered: 285; true: 278; false: 7; false-positive rate: 2.456140350877193%; probability: 5.547597315791829e-08
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:28:46.796196
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 570 rows, 541 columns and 28500 nonzeros
+Model fingerprint: 0xd8d1be84
+Variable types: 0 continuous, 541 integer (285 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 570 rows, 541 columns, 28500 nonzeros
+Variable types: 0 continuous, 541 integer (285 binary)
+
+Root relaxation: objective 2.848451e+02, 1731 iterations, 0.82 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  284.84509    0  285   -0.00000  284.84509      -     -    0s
+H    0     0                      37.0000000  284.84509   670%     -    0s
+H    0     0                      70.0000000  284.84509   307%     -    0s
+H    0     0                      71.0000000  284.84509   301%     -    1s
+     0     0  284.83950    0  285   71.00000  284.83950   301%     -    1s
+     0     2  284.83950    0  285   71.00000  284.83950   301%     -    2s
+   103   144  278.94403    7  279   71.00000  284.82006   301%   130    7s
+H  109   144                      72.0000000  284.82006   296%   127    7s
+H  140   144                      77.0000000  284.81742   270%   117    7s
+   183   224  278.94033    9  279   77.00000  284.81546   270%   112   10s
+   707   748  278.92294   22  279   77.00000  284.80406   270%  78.0   17s
+  1538  1745  278.89590   48  279   77.00000  284.80406   270%  62.6   20s
+  3993  4347  278.76856  133  279   77.00000  284.80406   270%  46.4   25s
+  8157  8367  277.09632  266  279   77.00000  284.80406   270%  41.1   30s
+ 11372 11452  278.47914   75  279   77.00000  284.80247   270%  47.9   35s
+ 13301 12955  273.38407  115  274   77.00000  284.80247   270%  49.8   70s
+ 13858 13504  272.30945  131  273   77.00000  284.80247   270%  50.4   76s
+H13869 13504                      80.0000000  284.80247   256%  50.4   76s
+ 14851 14790  271.84304  167  273   80.00000  284.80247   256%  52.2   82s
+ 16564 16140  281.50080  160  285   80.00000  284.80247   256%  54.3  117s
+ 16568 16143  280.31415  214  285   80.00000  284.80247   256%  54.3  120s
+ 16569 16146  284.80247   11  285   80.00000  284.80247   256%  54.4  128s
+ 16571 16150  283.86185   12  284   80.00000  284.80247   256%  54.4  136s
+ 16631 16226  282.85238   16  283   80.00000  284.80247   256%  54.7  140s
+ 16751 16306  282.83423   18  283   80.00000  284.80247   256%  55.2  147s
+ 17980 17219  282.76972   31  283   80.00000  284.80247   256%  59.2  150s
+H18534 16776                      83.0000000  284.80247   243%  60.9  151s
+H18554 16003                      87.0000000  284.80247   227%  61.0  151s
+ 21052 17882  282.60602   58  283   87.00000  284.80247   227%  65.9  155s
+ 26071 20518  278.49321   89  279   87.00000  284.80247   227%  68.1  160s
+ 27392 21042  275.36915  104  276   87.00000  284.80247   227%  71.4  203s
+ 27673 21224  275.35506  108  276   87.00000  284.80247   227%  72.5  207s
+H27674 20496                      88.0000000  284.80247   224%  72.5  207s
+H27686 19800                      89.0000000  284.80247   220%  72.5  207s
+ 28117 20419  273.36281  113  274   89.00000  284.80247   220%  73.5  213s
+H28292 19703                      91.0000000  284.80247   213%  73.8  213s
+H28340 19063                      95.0000000  284.80247   200%  73.9  213s
+H28490 18459                      96.0000000  284.80247   197%  74.4  216s
+H28491 17895                     100.0000000  284.80247   185%  74.4  216s
+ 30163 19602  266.51403  134  267  100.00000  284.80247   185%  77.1  220s
+ 32934 20569  261.50185  157  262  100.00000  284.80247   185%  80.1  228s
+ 32975 23820  261.47546  157  262  100.00000  284.80247   185%  80.2  235s
+ 38615 25705  244.70177  229  245  100.00000  284.80247   185%  91.2  240s
+ 42928 26756  234.71452  280  235  100.00000  284.80247   185%  92.5  245s
+ 45229 28142  224.80435  319  225  100.00000  284.80247   185%  95.2  252s
+H45248 27600                     101.0000000  284.80247   182%  95.2  252s
+ 46459 29644  218.88431  340  219  101.00000  284.80247   182%  96.7  255s
+ 49094 31245  205.95573  387  206  101.00000  284.80247   182%  99.5  261s
+ 51010 33497 infeasible  429       101.00000  284.80247   182%   103  265s
+ 55026 37720  264.78453   82  265  101.00000  284.80247   182%   107  271s
+ 58381 41322  241.89383  137  242  101.00000  284.80247   182%   110  275s
+ 62365 45425  216.95232  209  217  101.00000  284.80247   182%   111  280s
+ 66731 52098  184.89382  325  185  101.00000  284.80247   182%   113  289s
+ 71447 54072  283.78473   23  284  101.00000  284.80247   182%   113  292s
+ 75548 58406  265.76576   77  266  101.00000  284.80247   182%   115  296s
+ 80174 60518  239.97563  123  239  101.00000  284.80247   182%   116  300s
+
+Explored 80214 nodes (9298531 simplex iterations) in 300.03 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 101 100 96 ... 80
+
+Time limit reached
+Best objective 1.010000000000e+02, best bound 2.840000000000e+02, gap 181.1881%
+
+User-callback calls 219018, time in user-callback 1.26 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1850112; after filter: 279; delta: 1849833; threshold: 1
+INFO:root:Total filtered: 279; true: 273; false: 6; false-positive rate: 2.1505376344086025%; probability: 1.6266900353940233e-07
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:33:49.023139
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 558 rows, 535 columns and 27900 nonzeros
+Model fingerprint: 0x331fa95a
+Variable types: 0 continuous, 535 integer (279 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1850112; after filter: 304; delta: 1849808; threshold: 1
+INFO:root:Total filtered: 304; true: 301; false: 3; false-positive rate: 0.9868421052631579%; probability: 0.0037305577891354838
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:33:50.171919
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 608 rows, 560 columns and 30400 nonzeros
+Model fingerprint: 0x16721e98
+Variable types: 0 continuous, 560 integer (304 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1850112; after filter: 258; delta: 1849854; threshold: 1
+INFO:root:Total filtered: 258; true: 256; false: 2; false-positive rate: 0.7751937984496124%; probability: 3.0163182819051065e-05
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:33:51.314323
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 516 rows, 514 columns and 25800 nonzeros
+Model fingerprint: 0xb5f5432d
+Variable types: 0 continuous, 514 integer (258 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1850112; after filter: 312; delta: 1849800; threshold: 1
+INFO:root:Total filtered: 312; true: 311; false: 1; false-positive rate: 0.3205128205128205%; probability: 0.1794871794871795
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:33:52.467560
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 624 rows, 568 columns and 31200 nonzeros
+Model fingerprint: 0xa4ecd0d8
+Variable types: 0 continuous, 568 integer (312 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 278, "total_equations": 1850112, "filtered_equations": 285, "duration": 300.02577686309814, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 273, "total_equations": 1850112, "filtered_equations": 279, "duration": 0.005548000335693359, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 301, "total_equations": 1850112, "filtered_equations": 304, "duration": 0.00568699836730957, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 1850112, "filtered_equations": 258, "duration": 0.004797935485839844, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 311, "total_equations": 1850112, "filtered_equations": 312, "duration": 0.005584001541137695, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1277, "num_signatures": 7227, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+INFO:root:m = 1277; threshold = 1 did not succeed, trying again with increased f = 4 (decreased m = 1276)
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1276 non-zero entries. Meaning we will have 4 zero entries.
+INFO:root:We will use 5441 signatures.
+INFO:root:Before filter: 1392896; after filter: 326; delta: 1392570; threshold: 1
+INFO:root:Total filtered: 326; true: 322; false: 4; false-positive rate: 1.2269938650306749%; probability: 0.001984642798333467
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:34:01.061362
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 652 rows, 582 columns and 32600 nonzeros
+Model fingerprint: 0xb4637223
+Variable types: 0 continuous, 582 integer (326 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.04s
+Presolved: 652 rows, 582 columns, 32600 nonzeros
+Variable types: 0 continuous, 582 integer (326 binary)
+
+Root relaxation: objective 3.256829e+02, 2100 iterations, 1.13 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  325.68292    0  326   -0.00000  325.68292      -     -    1s
+H    0     0                      35.0000000  325.68292   831%     -    1s
+H    0     0                      89.0000000  325.68292   266%     -    1s
+H    0     0                      92.0000000  325.68292   254%     -    1s
+     0     0  325.67308    0  326   92.00000  325.67308   254%     -    2s
+     0     2  325.67308    0  326   92.00000  325.67308   254%     -    3s
+INFO:root:Candidate is correct with same sign
+H    4     8                     322.0000000  325.67308  1.14%   124    3s
+
+Explored 7 nodes (2924 simplex iterations) in 3.77 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 5: 322 92 89 ... -0
+
+Solve interrupted
+Best objective 3.220000000000e+02, best bound 3.250000000000e+02, gap 0.9317%
+
+User-callback calls 763, time in user-callback 0.01 sec
+DEBUG:root:Gurobi result status: "INTERRUPTED"
+INFO:root:We used 322.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 3.766124963760376 seconds.
+INFO:root:Successfully recovered s_1 entry!
+INFO:root:Before filter: 1392896; after filter: 290; delta: 1392606; threshold: 1
+INFO:root:Total filtered: 290; true: 287; false: 3; false-positive rate: 1.0344827586206897%; probability: 0.0014874915483434753
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 296.2338750362396
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 296.2338750362396s. Current datetime is: 2022-07-22 03:34:05.761751
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 580 rows, 546 columns and 29000 nonzeros
+Model fingerprint: 0x5f0ad22b
+Variable types: 0 continuous, 546 integer (290 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 580 rows, 546 columns, 29000 nonzeros
+Variable types: 0 continuous, 546 integer (290 binary)
+
+Root relaxation: objective 2.897921e+02, 1700 iterations, 0.86 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  289.79206    0  290   -0.00000  289.79206      -     -    0s
+H    0     0                      29.0000000  289.79206   899%     -    0s
+H    0     0                      77.0000000  289.79206   276%     -    0s
+H    0     0                      84.0000000  289.79171   245%     -    1s
+     0     0  289.79171    0  290   84.00000  289.79171   245%     -    1s
+     0     2  289.79171    0  290   84.00000  289.79171   245%     -    3s
+   103   144  283.93034    7  284   84.00000  289.74675   245%   136    6s
+H  130   144                      85.0000000  289.74317   241%   124    6s
+   295   365  283.92688   12  284   85.00000  289.73493   241%   101   10s
+  1693  1900  283.87940   59  284   85.00000  289.72568   241%  58.9   15s
+  4380  4744  283.74449  157  284   85.00000  289.72568   241%  44.7   20s
+  7723  8165  282.28956  244  284   85.00000  289.72568   241%  40.3   25s
+ 12266 12390  288.11481  113  289   85.00000  289.72302   241%  48.7   30s
+ 13727 13942  286.34796  170  288   85.00000  289.72302   241%  50.6   37s
+H14176 13942                      87.0000000  289.72302   233%  51.1   37s
+ 14253 13982  285.96859  188  288   87.00000  289.72302   233%  51.1   69s
+ 14293 14324  285.96754  189  288   87.00000  289.72302   233%  51.2   70s
+H14395 14324                      88.0000000  289.72302   229%  51.3   70s
+H14936 14834                      89.0000000  289.72302   226%  51.8   73s
+ 15157 15213  284.69800  219  288   89.00000  289.72302   226%  52.1   75s
+ 16213 15890  283.75551  140  290   89.00000  289.72302   226%  53.6  107s
+ 16217 15893  287.91058  165  290   89.00000  289.72302   226%  53.5  110s
+ 16218 15896  289.72302   13  290   89.00000  289.72302   226%  53.7  119s
+ 16220 15900  288.80437   14  289   89.00000  289.72302   226%  53.7  127s
+ 16248 15946  287.79414   17  288   89.00000  289.72302   226%  53.8  130s
+H16359 15194                      90.0000000  289.72302   222%  54.3  133s
+ 16400 15261  287.76749   20  288   90.00000  289.72302   222%  54.5  137s
+ 17542 16091  287.67248   30  288   90.00000  289.72302   222%  57.6  140s
+ 20849 18527  286.52954   53  287   90.00000  289.72302   222%  60.2  145s
+ 26221 21384  282.42475   89  283   90.00000  289.72302   222%  59.9  150s
+ 26858 21529  281.43899   96  282   90.00000  289.72302   222%  61.0  184s
+ 26898 21555  280.48483   97  281   90.00000  289.72302   222%  61.1  186s
+H26935 20788                      93.0000000  289.72302   212%  61.2  186s
+ 27581 21510  277.57086  104  278   93.00000  289.72302   212%  62.3  191s
+ 27967 21842  277.52958  107  278   93.00000  289.72302   212%  62.8  195s
+ 30837 23634  270.68502  134  271   93.00000  289.72302   212%  66.7  200s
+ 34133 25914  263.74394  171  264   93.00000  289.72302   212%  70.7  205s
+ 36388 26996  255.81055  197  256   93.00000  289.72302   212%  74.0  211s
+ 37862 27529  253.79124  216  254   93.00000  289.72302   212%  75.7  217s
+ 38693 29107  251.77938  226  252   93.00000  289.72302   212%  76.9  220s
+ 40998 29412  246.82162  261  247   93.00000  289.72302   212%  79.3  225s
+ 43476 32236  239.72097  299  240   93.00000  289.72302   212%  82.1  230s
+ 46264 33192  228.76210  347  229   93.00000  289.72302   212%  85.1  236s
+H46621 32356                      95.0000000  289.72302   205%  85.5  236s
+ 49980 35319  289.72302   21  290   95.00000  289.72302   205%  87.8  241s
+ 52678 37184  278.66291   67  279   95.00000  289.72302   205%  90.8  245s
+ 55710 39293  259.78550  113  260   95.00000  289.72302   205%  94.0  250s
+ 61100 43646  226.87468  193  227   95.00000  289.72302   205%  96.5  260s
+H62912 44421                      96.0000000  289.72302   202%  97.1  263s
+ 63374 46591  209.89256  237  210   96.00000  289.72302   202%  97.3  266s
+ 65561 50783  191.91780  287  192   96.00000  289.72302   202%  98.2  271s
+ 72032 55072  285.76668   34  286   96.00000  289.72302   202%  98.5  275s
+ 76480 59561  281.68383   63  282   96.00000  289.72302   202%  98.8  281s
+ 82044 63214  275.73906   89  275   96.00000  289.72302   202%  98.8  287s
+H82796 63103                      99.0000000  289.72302   193%  98.8  287s
+ 82873 65621  274.67949   98  275   99.00000  289.72302   193%  98.8  290s
+ 87649 69262  263.76645  126  264   99.00000  289.72302   193%   100  296s
+
+Explored 89493 nodes (8987480 simplex iterations) in 296.32 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 99 96 95 ... 84
+
+Time limit reached
+Best objective 9.900000000000e+01, best bound 2.890000000000e+02, gap 191.9192%
+
+User-callback calls 230391, time in user-callback 1.12 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1392896; after filter: 259; delta: 1392637; threshold: 1
+INFO:root:Total filtered: 259; true: 256; false: 3; false-positive rate: 1.1583011583011582%; probability: 3.493804959735645e-07
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:39:03.258698
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 518 rows, 515 columns and 25900 nonzeros
+Model fingerprint: 0xe3c3eb44
+Variable types: 0 continuous, 515 integer (259 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1392896; after filter: 284; delta: 1392612; threshold: 1
+INFO:root:Total filtered: 284; true: 281; false: 3; false-positive rate: 1.056338028169014%; probability: 0.0008672439115559457
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:39:04.117126
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 568 rows, 540 columns and 28400 nonzeros
+Model fingerprint: 0x4f118a5b
+Variable types: 0 continuous, 540 integer (284 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1392896; after filter: 312; delta: 1392584; threshold: 1
+INFO:root:Total filtered: 312; true: 311; false: 1; false-positive rate: 0.3205128205128205%; probability: 0.1794871794871795
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:39:04.976559
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 624 rows, 568 columns and 31200 nonzeros
+Model fingerprint: 0xc78290bb
+Variable types: 0 continuous, 568 integer (312 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 322, "total_equations": 1392896, "filtered_equations": 326, "duration": 3.766124963760376, "failure": false, "equations_used": 322.0}, {"faulted_coeffs": 287, "total_equations": 1392896, "filtered_equations": 290, "duration": 296.3239781856537, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 1392896, "filtered_equations": 259, "duration": 0.006455898284912109, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 281, "total_equations": 1392896, "filtered_equations": 284, "duration": 0.006812095642089844, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 311, "total_equations": 1392896, "filtered_equations": 312, "duration": 0.0073699951171875, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1276, "num_signatures": 5441, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+DEBUG:root:Performing an attack!
+INFO:root:We will have m=1276 non-zero entries. Meaning we will have 4 zero entries.
+INFO:root:We will use 5182 signatures.
+INFO:root:Before filter: 1326592; after filter: 288; delta: 1326304; threshold: 1
+INFO:root:Total filtered: 288; true: 283; false: 5; false-positive rate: 1.7361111111111112%; probability: 1.2629476188752257e-05
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 300.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 300s. Current datetime is: 2022-07-22 03:39:13.041443
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 576 rows, 544 columns and 28800 nonzeros
+Model fingerprint: 0x29accd2b
+Variable types: 0 continuous, 544 integer (288 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 576 rows, 544 columns, 28800 nonzeros
+Variable types: 0 continuous, 544 integer (288 binary)
+
+Root relaxation: objective 2.877907e+02, 1741 iterations, 0.84 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  287.79071    0  288   -0.00000  287.79071      -     -    0s
+H    0     0                      33.0000000  287.79071   772%     -    0s
+H    0     0                      96.0000000  287.79071   200%     -    0s
+     0     0  287.77997    0  288   96.00000  287.77997   200%     -    1s
+     0     2  287.77997    0  288   96.00000  287.77997   200%     -    3s
+INFO:root:Candidate is correct with same sign
+H   39    64                     283.0000000  287.76445  1.68%   167    4s
+
+Explored 63 nodes (11408 simplex iterations) in 4.10 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 4: 283 96 33 -0 
+
+Solve interrupted
+Best objective 2.830000000000e+02, best bound 2.870000000000e+02, gap 1.4134%
+
+User-callback calls 954, time in user-callback 0.01 sec
+DEBUG:root:Gurobi result status: "INTERRUPTED"
+INFO:root:We used 283.0 zero coefficients in y to recover the secret key.
+INFO:root:Recovery took 4.104099988937378 seconds.
+INFO:root:Successfully recovered s_1 entry!
+INFO:root:Before filter: 1326592; after filter: 269; delta: 1326323; threshold: 1
+INFO:root:Total filtered: 269; true: 265; false: 4; false-positive rate: 1.486988847583643%; probability: 3.3514852430284514e-06
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 295.8959000110626
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 295.8959000110626s. Current datetime is: 2022-07-22 03:39:18.158714
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 538 rows, 525 columns and 26900 nonzeros
+Model fingerprint: 0x8374bdea
+Variable types: 0 continuous, 525 integer (269 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.03s
+Presolved: 538 rows, 525 columns, 26900 nonzeros
+Variable types: 0 continuous, 525 integer (269 binary)
+
+Root relaxation: objective 2.688772e+02, 1751 iterations, 0.83 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  268.87716    0  269   -0.00000  268.87716      -     -    0s
+H    0     0                      31.0000000  268.87716   767%     -    0s
+H    0     0                      73.0000000  268.87716   268%     -    0s
+H    0     0                      75.0000000  268.86878   258%     -    1s
+     0     0  268.86878    0  269   75.00000  268.86878   258%     -    1s
+     0     2  268.86878    0  269   75.00000  268.86878   258%     -    2s
+    63   104  262.99443    6  263   75.00000  268.86296   258%   264    5s
+H  122   144                      79.0000000  268.85774   240%   216    8s
+   183   224  262.99376    9  263   79.00000  268.85622   240%   186   11s
+   773   908  262.99073   26  263   79.00000  268.83506   240%   106   15s
+H  784   908                      83.0000000  268.83506   224%   105   15s
+  1382  1611  262.98868   45  263   83.00000  268.83506   224%  81.3   20s
+  5919  6326  262.86523  201  263   83.00000  268.83506   224%  34.8   25s
+  9751  9804  256.21530  296  258   83.00000  268.83280   224%  37.1   30s
+ 13579 13272  268.61301   46  269   83.00000  268.83118   224%  43.2   36s
+ 15576 15217  268.48387   64  269   83.00000  268.83118   224%  45.4   71s
+H15689 15674                      89.0000000  268.83118   202%  45.5   74s
+ 16109 15712  268.43964   66  269   89.00000  268.83118   202%  46.1   76s
+ 16152 15713  267.85479   24  269   89.00000  268.83118   202%  46.1  112s
+ 16158 15720  268.83118   16  270   89.00000  268.83118   202%  46.2  121s
+ 16160 15723  267.91020   17  268   89.00000  268.83118   202%  46.3  129s
+ 16164 15730  266.94766   18  267   89.00000  268.83118   202%  46.3  130s
+ 16260 15826  266.91764   22  267   89.00000  268.83118   202%  46.6  135s
+H16263 15039                      90.0000000  268.83118   199%  46.6  135s
+ 16340 15093  266.90883   23  267   90.00000  268.83118   199%  46.7  140s
+ 17034 15556  266.86521   32  267   90.00000  268.83118   199%  48.2  146s
+ 19255 17254  266.74069   52  267   90.00000  268.83118   199%  53.1  150s
+ 24265 20493  265.62253   82  266   90.00000  268.83118   199%  56.3  155s
+ 26620 21631  262.64865  101  263   90.00000  268.83118   199%  58.8  160s
+ 28156 22684  260.62803  116  261   90.00000  268.83118   199%  62.0  165s
+ 29921 23698  259.62567  132  260   90.00000  268.83118   199%  64.3  170s
+ 30979 23878  259.53436  146  260   90.00000  268.83118   199%  66.7  176s
+ 31019 23904  258.55061  147  259   90.00000  268.83118   199%  66.8  240s
+ 31243 24422  258.54824  149  259   90.00000  268.83118   199%  67.3  245s
+ 32269 25266  255.60339  161  256   90.00000  268.83118   199%  70.0  250s
+ 32871 26485  254.64402  168  254   90.00000  268.83118   199%  71.5  255s
+ 36094 27370  245.67693  211  246   90.00000  268.83118   199%  78.0  260s
+H36253 26570                      92.0000000  268.83118   192%  78.2  260s
+ 39365 29693  242.72104  245  243   92.00000  268.83118   192%  81.3  265s
+ 44828 33337  231.67425  330  232   92.00000  268.83118   192%  87.8  271s
+H46474 32221                      93.0000000  268.83118   189%  89.6  274s
+ 46528 33510  209.70195  379  210   93.00000  268.83118   189%  89.6  275s
+ 50653 36143  254.86856   89  255   93.00000  268.83118   189%  95.8  281s
+ 54099 38097  235.90214  143  236   93.00000  268.83118   189%  99.1  286s
+ 57478 41094  219.89536  186  220   93.00000  268.83118   189%   101  290s
+ 63735 46118  182.96945  311  183   93.00000  268.83118   189%   105  295s
+
+Cutting planes:
+  Inf proof: 1
+
+Explored 64839 nodes (6825528 simplex iterations) in 295.93 seconds
+Thread count was 40 (of 80 available processors)
+
+Solution count 10: 93 92 90 ... -0
+
+Time limit reached
+Best objective 9.300000000000e+01, best bound 2.680000000000e+02, gap 188.1720%
+
+User-callback calls 195592, time in user-callback 1.18 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1326592; after filter: 274; delta: 1326318; threshold: 1
+INFO:root:Total filtered: 274; true: 269; false: 5; false-positive rate: 1.824817518248175%; probability: 6.906301516692875e-07
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:44:15.161297
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 548 rows, 530 columns and 27400 nonzeros
+Model fingerprint: 0xa484f92b
+Variable types: 0 continuous, 530 integer (274 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1326592; after filter: 286; delta: 1326306; threshold: 1
+INFO:root:Total filtered: 286; true: 283; false: 3; false-positive rate: 1.048951048951049%; probability: 0.0010523205482434541
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:44:15.986266
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 572 rows, 542 columns and 28600 nonzeros
+Model fingerprint: 0x2414c36a
+Variable types: 0 continuous, 542 integer (286 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+INFO:root:Before filter: 1326592; after filter: 259; delta: 1326333; threshold: 1
+INFO:root:Total filtered: 259; true: 256; false: 3; false-positive rate: 1.1583011583011582%; probability: 3.493804959735645e-07
+Academic license - for non-commercial use only - expires 2023-06-16
+Using license file /home/users/alexis/gurobi.lic
+Changed value of parameter TimeLimit to 0.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter Threads to 40
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+INFO:root:Starting recovery of an entry. Will timeout after 0s. Current datetime is: 2022-07-22 03:44:16.809479
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 40 physical cores, 80 logical processors, using up to 40 threads
+Optimize a model with 518 rows, 515 columns and 25900 nonzeros
+Model fingerprint: 0x4ddd1335
+Variable types: 0 continuous, 515 integer (259 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+00]
+  RHS range        [5e+05, 5e+05]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 80 available processors)
+
+Solution count 1: -0 
+No other solutions better than 0
+
+Time limit reached
+Best objective -0.000000000000e+00, best bound -, gap -
+
+User-callback calls 24, time in user-callback 0.00 sec
+DEBUG:root:Gurobi result status: "TIME_LIMIT"
+ERROR:root:Gurobi failed: "TIME_LIMIT"
+INFO:root:Failed to recover s_1 entry!
+WARNING:root:Failed recovery!
+DEBUG:root:{"entry_results": [{"faulted_coeffs": 283, "total_equations": 1326592, "filtered_equations": 288, "duration": 4.104099988937378, "failure": false, "equations_used": 283.0}, {"faulted_coeffs": 265, "total_equations": 1326592, "filtered_equations": 269, "duration": 295.9258289337158, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 269, "total_equations": 1326592, "filtered_equations": 274, "duration": 0.00493311882019043, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 283, "total_equations": 1326592, "filtered_equations": 286, "duration": 0.005321979522705078, "failure": true, "failure_reason": "TIME_LIMIT"}, {"faulted_coeffs": 256, "total_equations": 1326592, "filtered_equations": 259, "duration": 0.004737138748168945, "failure": true, "failure_reason": "TIME_LIMIT"}], "m": 1276, "num_signatures": 5182, "nist_param_level": 3, "threshold": 1, "notion_of_success": 256, "timeout_limit": 300}
+INFO:root:m = 1276; threshold = 1 did not succeed, trying again with increased f = 5 (decreased m = 1275)

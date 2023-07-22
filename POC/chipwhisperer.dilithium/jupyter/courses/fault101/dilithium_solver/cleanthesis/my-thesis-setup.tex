@@ -1,0 +1,94 @@
+% !TEX root = my-thesis.tex
+
+
+% **************************************************
+% Files' Character Encoding
+% **************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+\usepackage{inputenc}
+
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{Breaking the Shuffling Countermeasure in Lattice-Based Signature Schemes}
+\newcommand{\thesisName}{Alexis Bagia}
+%\newcommand{\thesisSubject}{Documentation}
+\newcommand{\thesisSubject}{Bachelor's Thesis}
+\newcommand{\thesisDate}{29.07.2022}
+\newcommand{\thesisVersion}{Final}
+
+\newcommand{\thesisFirstReviewer}{Prof. Dr. Jean-Pierre Seifert}
+\newcommand{\thesisFirstReviewerUniversity}{\protect{Technische Universität Berlin}}
+\newcommand{\thesisFirstReviewerDepartment}{Professur Security in Telecommunications}
+
+\newcommand{\thesisSecondReviewer}{Prof. Dr. Thorsten Koch}
+\newcommand{\thesisSecondReviewerUniversity}{\protect{Technische Universität Berlin}}
+\newcommand{\thesisSecondReviewerDepartment}{Fachgebiet Software und Algorithmen für die\\diskrete Optimierung}
+
+\newcommand{\thesisFirstSupervisor}{M.Sc. Vincent Quentin Ulitzsch}
+%\newcommand{\thesisSecondSupervisor}{John Smith}
+
+\newcommand{\thesisUniversity}{\protect{Technische Universität Berlin}}
+\newcommand{\thesisUniversityDepartment}{Professur Security in Telecommunications}
+\newcommand{\thesisUniversityInstitute}{Institut für Softwaretechnik und Theoretische Informatik}
+%\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityGroup}{}
+\newcommand{\thesisUniversityCity}{Berlin}
+\newcommand{\thesisUniversityStreetAddress}{Ernst-Reuter-Platz 7}
+\newcommand{\thesisUniversityPostalCode}{10587}
+
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage[german,english]{babel} % babel system, adjust the language of the content
+\PassOptionsToPackage{% setup clean thesis style
+    figuresep=colon,%
+    hangfigurecaption=false,%
+    hangsection=true,%
+    hangsubsection=true,%
+    sansserif=false,%
+    configurelistings=true,%
+    colorize=full,%
+    colortheme=bluemagenta,%
+    configurebiblatex=true,%
+    bibsys=biber,%
+    bibfile=bib-refs,%
+    bibstyle=alphabetic,%
+    bibsorting=nty,%
+}{cleanthesis}
+\usepackage{cleanthesis}
+
+\hypersetup{% setup the hyperref-package options
+    pdftitle={\thesisTitle},    %   - title (PDF meta)
+    pdfsubject={\thesisSubject},%   - subject (PDF meta)
+    pdfauthor={\thesisName},    %   - author (PDF meta)
+    plainpages=false,           %   -
+    colorlinks=false,           %   - colorize links?
+    pdfborder={0 0 0},          %   -
+    breaklinks=true,            %   - allow line break inside links
+    bookmarksnumbered=true,     %
+    bookmarksopen=true          %
+}
+
+% **************************************************
+% Other Packages
+% **************************************************
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny,disable]{todonotes}
+\usepackage{dirtytalk}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{bm}
+\usepackage{minted}
+\usepackage{subcaption}
+\usepackage[linesnumbered]{algorithm2e}
+
+\usepackage{scrhack}
