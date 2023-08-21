@@ -1,16 +1,17 @@
 # Indicate the Gurobi reference image
 #FROM gurobi/optimizer:latest
-FROM fedora:latest
-COPY requirements.txt requirements.txt
-RUN dnf update -y && dnf install -y python3 pip vim
-RUN pip3 install -r requirements.txt
+FROM python:3.9
+
+# install requirements
+COPY requirements.txt /tmp
+RUN pip3 install -r /tmp/requirements.txt
+
+# copy the code
+COPY ./code /code
 
 # Set the application directory
-WORKDIR /current_dir
-
-# Copy the application code 
-#ADD . /app
 
 # Command used to start the application
-
-
+WORKDIR /code
+ENTRYPOINT ["python3"]
+CMD ["dilithium_one_attack.py"]
