@@ -36,7 +36,7 @@ INFO:root:m = 1022; notion_of_success = 512 succeeded!
 The attack itself is implemented in `recover_s1_entry.py`. The data in the "entry_results" dictionary gives detailed information about the attack statistics, such as the number of used equations, number of filtered equations (according to the method described in Section 5.3 Attacking the Protected Implementation of Dilithium to reduce false-positives), or number of faulted coefficients (in total).
 
 
-#Reproducing Practical Evaluation:
+# Reproducing Practical Evaluation:
 
 To reproduce the practical evaluation from Section 7, End-To-End Attack Proof-of-Concept, we provide the "chipwhisperer-dilithium" directory. Since some of the code needs a connection to a ChipWhisperer, this code is provided without a docker container. A virtual environment should be sufficient. 
 
