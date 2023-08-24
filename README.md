@@ -47,24 +47,26 @@ The attack itself is implemented in `recover_s1_entry.py`. The data in the "entr
 
 # Reproducing Practical Evaluation:
 
-To reproduce the practical evaluation from Section 7, End-To-End Attack Proof-of-Concept, we provide the "chipwhisperer-dilithium" directory. Since some of the code needs a connection to a ChipWhisperer, this code is provided without a docker container. A virtual environment should be sufficient. 
-
-The chipwhisperer.dilithium directory contains:
-1. The modified dilithium-firmware (in `hardware/victims/firmware/simpleserial-dilithium-ref/dilithium/`)
-2. Two Jupyter notebooks, which:
-   2.1 Collect the faulted signatures (`Dilithium - Glitches - Signature - Only - Attack.ipynb`).
-   2.2 And run the attack plus print attack statistics (`Stats - Signature - Only - Attack.ipynb`)
-Plus some data that we pre-collected in `gc.results.pickled.signature-attacks-2023-03-16_00-14-39.pickle`.
-
-The notebook should execute as is. To do so, please run
+To reproduce the practical evaluation from Section 7, End-To-End Attack Proof-of-Concept, we provide the `POC` directory. Start the container using
 ```
-cd chipwhisperer.dilithium && pip install -r requirements.txt && python setup.py install
+docker compose up -d
 ```
-and then:
-```
-cd jupyter-dilithium && jupyter notebook .
-``` 
-You can then connect to the notebook in your browser window.
-To collect the data, simply execute all the steps in the `Dilithium_Collect_Signatures` notebook. This notebook requires your computer to be connected to a ChipWhisperer Lite FPGA board, which in turn needs to be connected to a `STM32F4` target board mounted on a ChipWhisperer UFO board.
-To run the analysis on our pre-collected data, simply run `Dilithium_Run_Attack`. The cell `Out[13]` depicts the success rate per faulted polynomial, as described in Section 7.3.
+Per default this start a jupyter notebook listening at port `8080` and is thus accessable via `http://localhost:8080`. You can configure the port in the `docker-compose.yaml` file.
+To connect to the notebook you will need to enter a token. You can find this in the log of the container, i.e. `docker compose logs`.
+Once connected to the notebook web interface you will find following files:
+- `Dilithium - Glitches - Signature - Only - Attack.ipynb`: Collect the faulted signatures
+- `Stats - Signature - Only - Attack.ipynb`: Run the secret key recovery plus print attack statistics
+- `gc.results.pickled.signature-attacks-2023-03-16_00-14-39.pickle`: Faulted signatures we physically collected
 
+To collect the faulted signatures it is required that your computer is connected to a ChipWhisperer Lite FPGA board, which in turn needs to be connected to a `STM32F4` target board mounted on a ChipWhisperer UFO board.
+Additionally it is crutial to have proper fault parameters, you can configure them in the cell containing following code.
+```
+magic_numbers = [straight_line['y_intercept'] + poly_index * straight_line['slope'] for poly_index in range(d._polyz_unpack_num_iters - 1)]
+ext_offsets = magic_numbers
+offsets = (0.390625,)
+widths = (1.562500,)
+```
+Our paramaters will most likely not work on your setup, because these parameters are very dependend on the physical setup like cable length.
+
+To run the secret key recovery and print statistics, the notebook will per default use our collected signature from the `.pickle` file.
+The cell `Out[13]` depicts the success rate per faulted polynomial, as described in Section 7.3.
