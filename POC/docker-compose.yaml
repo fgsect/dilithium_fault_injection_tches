@@ -1,5 +1,6 @@
 services:
   service:
     build: .
+    privileged: true
     ports:
       - "8080:80"
