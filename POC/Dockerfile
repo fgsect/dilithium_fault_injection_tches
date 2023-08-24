@@ -16,7 +16,7 @@ RUN cd /root && \
     cd jupyter/courses/fault101 && \
     git clone https://github.com/Alex1s/python-dilithium.git && \
     cd python-dilithium && \
-    git checkout 07214e8 && \
+    git checkout a1d4f87 && \
     rm -rf /root/chipwhisperer.dilithium/.git
 COPY dilithium_solver /root/chipwhisperer.dilithium/jupyter/courses/fault101/dilithium_solver
 CMD jupyter-notebook --allow-root --ip 0.0.0.0 --port 80 --no-browser /root/chipwhisperer.dilithium/jupyter/courses/fault101/ 
